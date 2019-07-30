@@ -46,7 +46,7 @@ public class RequestFactory {
      */
     private static final CloseableHttpAsyncClient CLIENT = HttpAsyncClientBuilder.create().build();
 
-    private static final AtomicBoolean STARTED = new AtomicBoolean(false);
+    public static final AtomicBoolean STARTED = new AtomicBoolean(false);
 
     private static final BasicResponseHandler RESPONSE_HANDLER = new BasicResponseHandler();
 

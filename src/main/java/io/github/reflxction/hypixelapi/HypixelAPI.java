@@ -141,5 +141,6 @@ public interface HypixelAPI {
      */
     static void shutdown() throws IOException {
         RequestFactory.close();
+        RequestFactory.STARTED.set(false);
     }
 }
