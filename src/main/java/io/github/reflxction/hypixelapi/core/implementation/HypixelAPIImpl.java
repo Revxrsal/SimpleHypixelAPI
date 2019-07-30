@@ -17,6 +17,9 @@ package io.github.reflxction.hypixelapi.core.implementation;
 
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
+import io.github.reflxction.hypixelapi.HypixelAPI;
+import io.github.reflxction.hypixelapi.core.http.RequestFactory;
+import io.github.reflxction.hypixelapi.core.implementation.game.LeaderboardImpl;
 import io.github.reflxction.hypixelapi.core.implementation.guild.GuildImpl;
 import io.github.reflxction.hypixelapi.core.implementation.hypixel.BoosterImpl;
 import io.github.reflxction.hypixelapi.core.implementation.hypixel.HypixelKeyImpl;
@@ -33,9 +36,6 @@ import io.github.reflxction.hypixelapi.hypixel.WatchdogStatistics;
 import io.github.reflxction.hypixelapi.player.Friend;
 import io.github.reflxction.hypixelapi.player.HypixelPlayer;
 import io.github.reflxction.hypixelapi.player.Session;
-import io.github.reflxction.hypixelapi.HypixelAPI;
-import io.github.reflxction.hypixelapi.core.http.RequestFactory;
-import io.github.reflxction.hypixelapi.core.implementation.game.LeaderboardImpl;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -54,6 +54,8 @@ public class HypixelAPIImpl implements HypixelAPI {
 
     private static final Type FRIENDS_TYPE = new TypeToken<List<FriendImpl>>() {
     }.getType();
+
+    private static final String SPACE_ENCODING = "%20";
 
     /**
      * The request factory
@@ -111,7 +113,7 @@ public class HypixelAPIImpl implements HypixelAPI {
      */
     @Override
     public String getGuildId(String guildName) {
-        return factory.getFindGuild(guildName).get("guild").getAsString();
+        return factory.getFindGuild(guildName.replace(" ", SPACE_ENCODING)).get("guild").getAsString();
     }
 
     /**
