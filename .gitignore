@@ -4,3 +4,5 @@
 /out/
 /out/production/classes/
 /out/test/classes/
+/src/test/
+/.idea/
