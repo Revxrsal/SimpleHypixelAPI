@@ -33,6 +33,7 @@ public class RequestValidator {
      * Returns the given JSON object if the request was successful, or throws the given exception
      * if the request was unsuccessful
      *
+     * @param key          API key to validate
      * @param <T>          The API exception
      * @param predicate    Another criteria that must be met in order for the request to success
      * @param object       The JSON object to test
