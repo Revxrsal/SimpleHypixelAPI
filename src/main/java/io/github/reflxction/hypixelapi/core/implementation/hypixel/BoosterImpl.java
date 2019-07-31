@@ -102,4 +102,14 @@ public class BoosterImpl implements Booster {
         return dateActivated;
     }
 
+    @Override
+    public String toString() {
+        return "BoosterImpl{" + "id='" + id + '\'' +
+                ", purchaserUuid=" + purchaserUuid +
+                ", amount=" + amount +
+                ", originalLength=" + originalLength +
+                ", gameType=" + gameType +
+                ", dateActivated=" + dateActivated +
+                '}';
+    }
 }

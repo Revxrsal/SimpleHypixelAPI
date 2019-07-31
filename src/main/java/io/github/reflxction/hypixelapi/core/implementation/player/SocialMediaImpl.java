@@ -48,4 +48,12 @@ public class SocialMediaImpl implements SocialMedia {
     public boolean isPrompt() {
         return prompt;
     }
+
+    @Override
+    public String toString() {
+        return "SocialMediaImpl{" +
+                "links=" + links +
+                ", prompt=" + prompt +
+                '}';
+    }
 }

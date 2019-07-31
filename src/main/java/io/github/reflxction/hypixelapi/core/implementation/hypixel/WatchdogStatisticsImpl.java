@@ -87,4 +87,15 @@ public class WatchdogStatisticsImpl implements WatchdogStatistics {
     public int getTotalStaffBans() {
         return staffTotal;
     }
+
+    @Override
+    public String toString() {
+        return "WatchdogStatisticsImpl{" +
+                "watchdogBansInLastMinute=" + watchdogBansInLastMinute +
+                ", staffBansInLastDay=" + staffBansInLastDay +
+                ", watchdogTotal=" + watchdogTotal +
+                ", watchdogBansInLastDay=" + watchdogBansInLastDay +
+                ", staffTotal=" + staffTotal +
+                '}';
+    }
 }

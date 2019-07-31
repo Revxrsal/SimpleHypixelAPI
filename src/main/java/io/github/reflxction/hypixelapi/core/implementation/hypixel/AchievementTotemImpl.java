@@ -97,6 +97,17 @@ public class AchievementTotemImpl implements AchievementTotem {
      */
     @Override
     public Map<String, String> getSelectedColors() {
-        return selectedColors ;
+        return selectedColors;
+    }
+
+    @Override
+    public String toString() {
+        return "AchievementTotemImpl{" + "canCustomize=" + canCustomize +
+                ", allowedMaxHeight=" + allowedMaxHeight +
+                ", unlockedParts=" + unlockedParts +
+                ", selectedParts=" + selectedParts +
+                ", unlockedColors=" + unlockedColors +
+                ", selectedColors=" + selectedColors +
+                '}';
     }
 }

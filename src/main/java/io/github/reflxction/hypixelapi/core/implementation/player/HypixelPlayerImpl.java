@@ -16,6 +16,7 @@
 package io.github.reflxction.hypixelapi.core.implementation.player;
 
 import com.google.gson.annotations.SerializedName;
+import io.github.reflxction.hypixelapi.core.implementation.game.TournamentImpl;
 import io.github.reflxction.hypixelapi.core.implementation.hypixel.AchievementTotemImpl;
 import io.github.reflxction.hypixelapi.core.implementation.hypixel.GiftingMetaImpl;
 import io.github.reflxction.hypixelapi.core.implementation.hypixel.HousingMetaImpl;
@@ -30,9 +31,6 @@ import io.github.reflxction.hypixelapi.hypixel.GiftingMeta;
 import io.github.reflxction.hypixelapi.hypixel.HousingMeta;
 import io.github.reflxction.hypixelapi.player.*;
 import io.github.reflxction.hypixelapi.privacy.PlayerPrivacy;
-import io.github.reflxction.hypixelapi.core.implementation.game.TournamentImpl;
-import io.github.reflxction.hypixelapi.player.*;
-import  io.github.reflxction.hypixelapi.player.*;
 
 import java.util.Date;
 import java.util.List;
@@ -835,5 +833,75 @@ public class HypixelPlayerImpl implements HypixelPlayer {
     @Override
     public GameType getMostRecentGameType() {
         return mostRecentGameType;
+    }
+
+    @Override
+    public String toString() {
+        return "HypixelPlayerImpl{" +
+                "id='" + id + '\'' +
+                ", displayName='" + displayName + '\'' +
+                ", playerName='" + playerName + '\'' +
+                ", uuid=" + uuid +
+                ", firstLogin=" + firstLogin +
+                ", lastLogin=" + lastLogin +
+                ", knownAliases=" + knownAliases +
+                ", knownAliasesLower=" + knownAliasesLower +
+                ", achievementsOneTime=" + achievementsOneTime +
+                ", achievementsTracking=" + achievementsTracking +
+                ", achievements=" + achievements +
+                ", networkExp=" + networkExp +
+                ", flashingSalePopup=" + flashingSalePopup +
+                ", flashingSalePoppedUp=" + flashingSalePoppedUp +
+                ", flashingSaleOpens=" + flashingSaleOpens +
+                ", lastMinecraftVersion='" + lastMinecraftVersion + '\'' +
+                ", websiteSet=" + websiteSet +
+                ", karma=" + karma +
+                ", friendRequestsUuid=" + friendRequestsUuid +
+                ", petConsumables=" + petConsumables +
+                ", vanityMeta=" + vanityMeta +
+                ", lastAdsenseGenerateTime=" + lastAdsenseGenerateTime +
+                ", giftingMeta=" + giftingMeta +
+                ", fortuneBuff=" + fortuneBuff +
+                ", housingMeta=" + housingMeta +
+                ", lastClaimedReward=" + lastClaimedReward +
+                ", totalRewards=" + totalRewards +
+                ", totalDailyRewards=" + totalDailyRewards +
+                ", rewardStreak=" + rewardStreak +
+                ", rewardScore=" + rewardScore +
+                ", rewardHighScore=" + rewardHighScore +
+                ", settings=" + settings +
+                ", channel=" + channel +
+                ", grinchGifts=" + grinchGifts +
+                ", santaQuestStarted=" + santaQuestStarted +
+                ", show_tip_holograms=" + show_tip_holograms +
+                ", show_tnttag_actionbar_info=" + show_tnttag_actionbar_info +
+                ", show_wizards_actionbar_info=" + show_wizards_actionbar_info +
+                ", show_wizards_cooldown_notifications=" + show_wizards_cooldown_notifications +
+                ", show_tntrun_actionbar_info=" + show_tntrun_actionbar_info +
+                ", parkourCompletions=" + parkourCompletions +
+                ", quickJoinTimestamp=" + quickJoinTimestamp +
+                ", quickJoinUses=" + quickJoinUses +
+                ", voting=" + voting +
+                ", lastLogout=" + lastLogout +
+                ", newPackageRank=" + newPackageRank +
+                ", vipUpgrade=" + vipUpgrade +
+                ", vipPlusUpgrade=" + vipPlusUpgrade +
+                ", petStats=" + petStats +
+                ", quests=" + quests +
+                ", socialMedia=" + socialMedia +
+                ", currentPet=" + currentPet +
+                ", networkBookUpdate='" + networkBookUpdate + '\'' +
+                ", achievementsRewardNew=" + achievementsRewardNew +
+                ", challenges=" + challenges +
+                ", parkourCheckpointBests=" + parkourCheckpointBests +
+                ", currentCloak='" + currentCloak + '\'' +
+                ", updateBookDelays=" + updateBookDelays +
+                ", updateBooks=" + updateBooks +
+                ", achievementPoints=" + achievementPoints +
+                ", achievementTotem=" + achievementTotem +
+                ", tourney=" + tourney +
+                ", lastHytaleAd=" + lastHytaleAd +
+                ", mostRecentGameType=" + mostRecentGameType +
+                '}';
     }
 }

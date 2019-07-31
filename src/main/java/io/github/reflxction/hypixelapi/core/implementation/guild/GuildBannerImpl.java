@@ -51,4 +51,12 @@ public class GuildBannerImpl implements GuildBanner {
     public List<BannerPattern> getPatterns() {
         return patterns;
     }
+
+    @Override
+    public String toString() {
+        return "GuildBannerImpl{" +
+                "base='" + base + '\'' +
+                ", patterns=" + patterns +
+                '}';
+    }
 }

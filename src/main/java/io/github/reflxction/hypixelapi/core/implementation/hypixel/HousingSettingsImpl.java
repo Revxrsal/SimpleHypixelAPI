@@ -50,4 +50,12 @@ public class HousingSettingsImpl implements HousingSettings {
     public int getVisibility() {
         return visibility;
     }
+
+    @Override
+    public String toString() {
+        return "HousingSettingsImpl{" +
+                "border=" + border +
+                ", visibility=" + visibility +
+                '}';
+    }
 }

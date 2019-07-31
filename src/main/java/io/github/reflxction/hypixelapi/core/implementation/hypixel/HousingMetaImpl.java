@@ -85,4 +85,15 @@ public class HousingMetaImpl implements HousingMeta {
     public List<UUID> getGivenCookies() {
         return givenCookies;
     }
+
+    @Override
+    public String toString() {
+        return "HousingMetaImpl{" +
+                "packages=" + packages +
+                ", allowedBlocks=" + allowedBlocks +
+                ", tutorialStep='" + tutorialStep + '\'' +
+                ", playerSettings=" + playerSettings +
+                ", givenCookies=" + givenCookies +
+                '}';
+    }
 }

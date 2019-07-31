@@ -100,4 +100,16 @@ public class PlayerVotingImpl implements PlayerVoting {
     public int getVotesToday() {
         return votesToday;
     }
+
+    @Override
+    public String toString() {
+        return "PlayerVotingImpl{" +
+                "total=" + total +
+                ", totalMcsorg=" + totalMcsorg +
+                ", secondaryMcsorg=" + secondaryMcsorg +
+                ", lastMcsorg=" + lastMcsorg +
+                ", lastVote=" + lastVote +
+                ", votesToday=" + votesToday +
+                '}';
+    }
 }

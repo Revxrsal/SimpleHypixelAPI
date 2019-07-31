@@ -106,4 +106,17 @@ public class PlayerPrivacyImpl implements PlayerPrivacy {
     public boolean getPlayerVisibility() {
         return playerVisibility;
     }
+
+    @Override
+    public String toString() {
+        return "PlayerPrivacyImpl{" +
+                "allowFriendRequests=" + allowFriendRequests +
+                ", guildInvitePrivacy=" + guildInvitePrivacy +
+                ", partyInvitePrivacy=" + partyInvitePrivacy +
+                ", privateMessagePrivacy=" + privateMessagePrivacy +
+                ", friendRequestPrivacy=" + friendRequestPrivacy +
+                ", guildChatVisibility=" + guildChatVisibility +
+                ", playerVisibility=" + playerVisibility +
+                '}';
+    }
 }

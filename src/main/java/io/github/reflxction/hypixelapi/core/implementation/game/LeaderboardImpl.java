@@ -96,4 +96,16 @@ public class LeaderboardImpl implements Leaderboard {
     public List<UUID> getLeaders() {
         return leaders;
     }
+
+    @Override
+    public String toString() {
+        return "LeaderboardImpl{" +
+                "title='" + title + '\'' +
+                ", path='" + path + '\'' +
+                ", prefix='" + prefix + '\'' +
+                ", count=" + count +
+                ", location='" + location + '\'' +
+                ", leaders=" + leaders +
+                '}';
+    }
 }

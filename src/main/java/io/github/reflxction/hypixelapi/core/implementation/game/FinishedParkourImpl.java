@@ -47,4 +47,12 @@ public class FinishedParkourImpl implements FinishedParkour {
     public long getTimeTook() {
         return timeTook;
     }
+
+    @Override
+    public String toString() {
+        return "FinishedParkourImpl{" +
+                "timeStart=" + timeStart +
+                ", timeTook=" + timeTook +
+                '}';
+    }
 }

@@ -36,4 +36,11 @@ public class HypixelQuestImpl implements HypixelQuest {
     public List<Date> getCompletions() {
         return completions;
     }
+
+    @Override
+    public String toString() {
+        return "HypixelQuestImpl{" +
+                "completions=" + completions +
+                '}';
+    }
 }

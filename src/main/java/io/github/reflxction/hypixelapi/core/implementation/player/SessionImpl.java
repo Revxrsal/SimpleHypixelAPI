@@ -75,4 +75,14 @@ public class SessionImpl implements Session {
     public List<UUID> getPlayers() {
         return players;
     }
+
+    @Override
+    public String toString() {
+        return "SessionImpl{" +
+                "id='" + id + '\'' +
+                ", gameType=" + gameType +
+                ", server='" + server + '\'' +
+                ", players=" + players +
+                '}';
+    }
 }

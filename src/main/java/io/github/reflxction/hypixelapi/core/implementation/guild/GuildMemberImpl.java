@@ -72,4 +72,14 @@ public class GuildMemberImpl implements GuildMember {
     public int getQuestParticipation() {
         return questParticipation;
     }
+
+    @Override
+    public String toString() {
+        return "GuildMemberImpl{" +
+                "uuid=" + uuid +
+                ", rank='" + rank + '\'' +
+                ", joined=" + joined +
+                ", questParticipation=" + questParticipation +
+                '}';
+    }
 }

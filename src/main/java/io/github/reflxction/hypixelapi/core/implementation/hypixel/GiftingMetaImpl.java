@@ -95,4 +95,16 @@ public class GiftingMetaImpl implements GiftingMeta {
     public List<String> getMilestones() {
         return milestones;
     }
+
+    @Override
+    public String toString() {
+        return "GiftingMetaImpl{" +
+                "realBundlesReceived=" + realBundlesReceived +
+                ", bundlesReceived=" + bundlesReceived +
+                ", giftsGiven=" + giftsGiven +
+                ", bundlesGiven=" + bundlesGiven +
+                ", realBundlesGiven=" + realBundlesGiven +
+                ", milestones=" + milestones +
+                '}';
+    }
 }

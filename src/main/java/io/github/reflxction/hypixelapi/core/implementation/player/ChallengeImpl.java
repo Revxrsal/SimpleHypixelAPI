@@ -35,4 +35,11 @@ public class ChallengeImpl implements Challenge {
     public Map<String, Integer> getFinished() {
         return finished;
     }
+
+    @Override
+    public String toString() {
+        return "ChallengeImpl{" +
+                "finished=" + finished +
+                '}';
+    }
 }

@@ -262,4 +262,30 @@ public class GuildImpl implements Guild {
     public Map<GameType, Integer> getGuildExpByGameType() {
         return guildExpByGameType;
     }
+
+    @Override
+    public String toString() {
+        return "GuildImpl{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", name_lower='" + name_lower + '\'' +
+                ", coins=" + coins +
+                ", coinsEver=" + coinsEver +
+                ", creationDate=" + creationDate +
+                ", banner=" + banner +
+                ", members=" + members +
+                ", joinable=" + joinable +
+                ", publiclyListed=" + publiclyListed +
+                ", tag='" + tag + '\'' +
+                ", achievements=" + achievements +
+                ", exp=" + exp +
+                ", ranks=" + ranks +
+                ", legacyRanking=" + legacyRanking +
+                ", preferredGames=" + preferredGames +
+                ", chatMute=" + chatMute +
+                ", tagColor='" + tagColor + '\'' +
+                ", description='" + description + '\'' +
+                ", guildExpByGameType=" + guildExpByGameType +
+                '}';
+    }
 }

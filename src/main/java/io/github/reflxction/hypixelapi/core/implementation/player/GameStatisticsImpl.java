@@ -329,5 +329,4 @@ public class GameStatisticsImpl implements GameStatistics {
         this.parent = parent;
         return this;
     }
-
 }

@@ -64,4 +64,13 @@ public class TournamentImpl implements Tournament {
     public int getTotalTributes() {
         return totalTributes;
     }
+
+    @Override
+    public String toString() {
+        return "TournamentImpl{" +
+                "firstLobbyJoin=" + firstLobbyJoin +
+                ", tournamentData=" + tournamentData +
+                ", totalTributes=" + totalTributes +
+                '}';
+    }
 }

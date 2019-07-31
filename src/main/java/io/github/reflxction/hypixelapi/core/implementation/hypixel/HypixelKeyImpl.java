@@ -97,4 +97,13 @@ public class HypixelKeyImpl implements HypixelKey {
         return this;
     }
 
+    @Override
+    public String toString() {
+        return "HypixelKeyImpl{" +
+                "key='" + key + '\'' +
+                ", totalQueries=" + totalQueries +
+                ", ownerUUID=" + ownerUUID +
+                ", queriesInPastMinute=" + queriesInPastMinute +
+                '}';
+    }
 }

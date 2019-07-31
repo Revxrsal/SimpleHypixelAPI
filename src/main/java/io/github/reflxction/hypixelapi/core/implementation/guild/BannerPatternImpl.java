@@ -48,4 +48,12 @@ public class BannerPatternImpl implements BannerPattern {
     public String getColor() {
         return color;
     }
+
+    @Override
+    public String toString() {
+        return "BannerPatternImpl{" +
+                "pattern='" + pattern + '\'' +
+                ", color='" + color + '\'' +
+                '}';
+    }
 }

@@ -62,4 +62,13 @@ public class TournamentDataImpl implements TournamentData {
     public Date getFirstWin() {
         return firstWin;
     }
+
+    @Override
+    public String toString() {
+        return "TournamentDataImpl{" +
+                "playtime=" + playtime +
+                ", tributesEarned=" + tributesEarned +
+                ", firstWin=" + firstWin +
+                '}';
+    }
 }

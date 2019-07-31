@@ -85,4 +85,15 @@ public class GuildRankImpl implements GuildRank {
     public int getPriority() {
         return priority;
     }
+
+    @Override
+    public String toString() {
+        return "GuildRankImpl{" +
+                "name='" + name + '\'' +
+                ", default_=" + default_ +
+                ", tag='" + tag + '\'' +
+                ", created=" + created +
+                ", priority=" + priority +
+                '}';
+    }
 }

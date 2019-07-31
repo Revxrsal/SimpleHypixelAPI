@@ -77,4 +77,14 @@ public class FriendImpl implements Friend {
     public Date getStartedDate() {
         return startedDate;
     }
+
+    @Override
+    public String toString() {
+        return "FriendImpl{" +
+                "id='" + id + '\'' +
+                ", sender=" + sender +
+                ", receiver=" + receiver +
+                ", startedDate=" + startedDate +
+                '}';
+    }
 }

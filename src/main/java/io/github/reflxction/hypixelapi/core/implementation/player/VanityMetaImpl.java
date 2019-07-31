@@ -35,4 +35,11 @@ public class VanityMetaImpl implements VanityMeta {
     public List<String> getPackages() {
         return packages;
     }
+
+    @Override
+    public String toString() {
+        return "VanityMetaImpl{" +
+                "packages=" + packages +
+                '}';
+    }
 }
