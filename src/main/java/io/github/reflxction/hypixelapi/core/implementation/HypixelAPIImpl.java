@@ -135,7 +135,7 @@ public class HypixelAPIImpl implements HypixelAPI {
      */
     @Override
     public List<Friend> getFriends(UUID uuid) {
-        return MAIN.fromJson(factory.getFriends(uuid.toString()).get("records"), FRIENDS_TYPE);
+        return MAIN.fromJson(factory.getFriends(uuid.toString()).get("records").getAsJsonArray(), FRIENDS_TYPE);
     }
 
     /**
@@ -188,6 +188,9 @@ public class HypixelAPIImpl implements HypixelAPI {
      */
     @Override
     public WatchdogStatistics getWatchdogStatistics() {
-        return MAIN.fromJson(factory.getWatchdogStats().remove("success"), WatchdogStatisticsImpl.class);
+        JsonObject object = factory.getWatchdogStats();
+        System.out.println(object);
+        object.remove("success");
+        return MAIN.fromJson(object, WatchdogStatisticsImpl.class);
     }
 }

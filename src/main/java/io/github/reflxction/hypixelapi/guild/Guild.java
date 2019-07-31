@@ -88,7 +88,7 @@ public interface Guild {
     GuildBanner getBanner();
 
     /**
-     * Whether is the guild joinable (doesn't require an invitation to join) or not
+     * Whether is the guild joinable (does not require an invitation to join) or not
      *
      * @return Whether is the guild joinable or not
      */

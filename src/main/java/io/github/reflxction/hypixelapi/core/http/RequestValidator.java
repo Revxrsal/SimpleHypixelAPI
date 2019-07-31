@@ -46,7 +46,7 @@ public class RequestValidator {
             throw new InvalidKeyException(key);
         if (object.has("throttle") && object.get("throttle").getAsBoolean())
             throw new RequestThrottleException("You have passed the API throttle limit!");
-        if (!success || !predicate.test(object))
+        if (!success || (predicate != null && !predicate.test(object)))
             throw apiException;
         return object;
     }

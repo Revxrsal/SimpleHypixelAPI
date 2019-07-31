@@ -353,7 +353,7 @@ public class HypixelPlayerImpl implements HypixelPlayer {
     /**
      * Returns a list of UUIDs of the pending friend requests for the player (People who sent this player a request).
      *
-     * @return A list of UUIDs of people who sent this player a request which hasn't been accepted yet.
+     * @return A list of UUIDs of people who sent this player a request which has not been accepted yet.
      */
     @Override
     public List<UUID> getFriendRequests() {

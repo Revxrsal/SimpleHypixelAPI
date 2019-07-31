@@ -78,7 +78,7 @@ public class EndpointReference {
     /**
      * The API endpoint for boosters
      */
-    private static final String WATCHDOG_ENDPOINT = BASE_API_ENDPOINT + "waterdogstats?key=%s";
+    private static final String WATCHDOG_ENDPOINT = BASE_API_ENDPOINT + "watchdogstats?key=%s";
 
     /**
      * Returns the API endpoint for fetching boosters, using the given key

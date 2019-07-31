@@ -23,7 +23,7 @@ public interface ILeveling {
      * This method returns the level of a player calculated by the current experience gathered. The result is
      * a precise level of the player The value is not zero-indexed and represents the absolute visible level
      * for the player.
-     * The result can't be smaller than 1 and negative experience results in level 1.
+     * The result ca not be smaller than 1 and negative experience results in level 1.
      * <p>
      * Examples:
      * -        0 XP = 1.0
@@ -43,7 +43,7 @@ public interface ILeveling {
      * This method returns the level of a player calculated by the current experience gathered. The result is
      * a precise level of the player The value is not zero-indexed and represents the visible level
      * for the player.
-     * The result can't be smaller than 1 and negative experience results in level 1.
+     * The result ca not be smaller than 1 and negative experience results in level 1.
      * <p>
      * Examples:
      * -        0 XP = 1.0
@@ -107,7 +107,7 @@ public interface ILeveling {
 
     /**
      * Helper method that may only be called by full levels and has the same functionality as getTotalExpToLevel()
-     * but doesn't support progress and returns wrong values for progress due to perfect curve shape.
+     * but does not support progress and returns wrong values for progress due to perfect curve shape.
      *
      * @param level Level to receive the amount of experience to
      * @return Experience to reach the given level

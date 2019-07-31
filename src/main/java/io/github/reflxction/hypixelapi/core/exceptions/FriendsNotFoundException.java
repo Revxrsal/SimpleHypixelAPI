@@ -16,7 +16,7 @@
 package io.github.reflxction.hypixelapi.core.exceptions;
 
 /**
- * Thrown when a <i>friends</i> request is made, and the given player either 1) doesn't exist, or 2) has no friends.
+ * Thrown when a <i>friends</i> request is made, and the given player does not exist.
  */
 public class FriendsNotFoundException extends HypixelAPIException {
 

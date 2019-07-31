@@ -33,6 +33,7 @@ import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.function.Predicate;
 
 import static io.github.reflxction.hypixelapi.core.adapters.GsonProfiles.MAIN;
 
@@ -137,8 +138,7 @@ public class RequestFactory {
      */
     public JsonObject getFriends(String uuid) {
         String response = send(EndpointReference.getFriendsEndpoint(key, uuid));
-        return RequestValidator.isSuccessful(key, construct(response), new FriendsNotFoundException(uuid),
-                object -> object.get("records").getAsJsonArray().size() != 0);
+        return RequestValidator.isSuccessful(key, construct(response), new FriendsNotFoundException(uuid), null);
     }
 
     /**

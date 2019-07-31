@@ -42,7 +42,7 @@ public enum GameType {
 
     /**
      * @param id The internal id
-     * @return The GameType associated with that id, or null if there isn't one.
+     * @return The GameType associated with that id, or null if there is not one.
      */
     public static GameType fromId(int id) {
         for (GameType gameType : VALUES) {
@@ -55,7 +55,7 @@ public enum GameType {
 
     /**
      * @param dbName The key used in the database
-     * @return The GameType associated with that key, or null if there isn't one.
+     * @return The GameType associated with that key, or null if there is not one.
      */
     public static GameType fromDatabase(String dbName) {
         for (GameType gameType : VALUES) {
