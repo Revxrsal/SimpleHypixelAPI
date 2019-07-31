@@ -42,7 +42,7 @@ class QuakeStatistics {
     @SerializedName("null")
     val _null: String = ""
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     val sight: String = ""
 

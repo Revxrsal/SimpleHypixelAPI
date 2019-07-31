@@ -40,7 +40,7 @@ class TNTGamesStatistics {
     @SerializedName("tags_bowspleef")
     val tagsBowspleef: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("record_pvprun")
     val recordPvprun: Int = 0

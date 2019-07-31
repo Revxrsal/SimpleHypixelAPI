@@ -23,7 +23,7 @@ import java.util.*
  */
 class SuperSmashStatistics {
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("chosen_class")
     val chosenClass: String = ""
@@ -5153,7 +5153,7 @@ class SuperSmashStatistics {
     val squidFinalDeathsStandard: Int = 0
 
     @SerializedName("cakes_found_by_name")
-    val cakesFoundByName: List<String> = Collections.emptyList()
+    val cakesFoundByName: List<Any> = Collections.emptyList()
 
     @SerializedName("pigman_new_d")
     val pigmanNewD: Int = 0

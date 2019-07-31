@@ -703,7 +703,7 @@ class ArcadeStatistics {
     @SerializedName("melee_weapon")
     val meleeWeapon: String = ""
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("wins_grinch")
     val winsGrinch: Int = 0

@@ -83,7 +83,7 @@ class MCGOStatistics {
     @SerializedName("magnum_reload_speed_reduction")
     val magnumReloadSpeedReduction: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("pistol_damage_increase")
     val pistolDamageIncrease: Int = 0

@@ -663,7 +663,7 @@ class DuelsStatistics {
 
     val coins: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("active_killmessages")
     val activeKillmessages: String = ""
@@ -732,7 +732,7 @@ class DuelsStatistics {
     val duelsOpenedchests: Int = 0
 
     @SerializedName("duels_chest_history")
-    val duelsChestHistory: List<String> = Collections.emptyList()
+    val duelsChestHistory: List<Any> = Collections.emptyList()
 
     @SerializedName("Duels_openedRares")
     val duelsOpenedrares: Int = 0
@@ -903,7 +903,7 @@ class DuelsStatistics {
     val bowmanKitWins: Int = 0
 
     @SerializedName("custom_titles")
-    val customTitles: List<String> = Collections.emptyList()
+    val customTitles: List<Any> = Collections.emptyList()
 
     @SerializedName("special_challenger")
     val specialChallenger: Boolean = false
@@ -954,7 +954,7 @@ class DuelsStatistics {
     val equippedCustomTitles: String = ""
 
     @SerializedName("maps_won_on")
-    val mapsWonOn: List<String> = Collections.emptyList()
+    val mapsWonOn: List<Any> = Collections.emptyList()
 
     @SerializedName("golden_apples_eaten")
     val goldenApplesEaten: Int = 0
@@ -1130,7 +1130,7 @@ class DuelsStatistics {
     val currentBridgeWinstreak: Int = 0
 
     @SerializedName("bridgeMapWins")
-    val bridgemapwins: List<String> = Collections.emptyList()
+    val bridgemapwins: List<Any> = Collections.emptyList()
 
     @SerializedName("best_bridge_winstreak")
     val bestBridgeWinstreak: Int = 0
@@ -1277,7 +1277,7 @@ class DuelsStatistics {
     val mwDuelDeaths: Int = 0
 
     @SerializedName("matchHistory2")
-    val matchhistory2: List<String> = Collections.emptyList()
+    val matchhistory2: List<Any> = Collections.emptyList()
 
     @SerializedName("season_1_reward_fixes")
     val season1RewardFixes: Boolean = false

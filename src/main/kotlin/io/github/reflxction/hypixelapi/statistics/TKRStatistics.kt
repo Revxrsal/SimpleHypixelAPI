@@ -36,7 +36,7 @@ class TKRStatistics {
     @SerializedName("helmet_active")
     val helmetActive: String = ""
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("jacket_active")
     val jacketActive: String = ""

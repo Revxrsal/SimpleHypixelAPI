@@ -24,7 +24,7 @@ import java.util.*
 class MurderMysteryStatistics {
 
     @SerializedName("murdermystery_books")
-    val murdermysteryBooks: List<String> = Collections.emptyList()
+    val murdermysteryBooks: List<Any> = Collections.emptyList()
 
     val wasSpecialRoleLastGame: Boolean = false
 
@@ -668,7 +668,7 @@ class MurderMysteryStatistics {
     @SerializedName("was_hero_hollywood_MURDER_CLASSIC")
     val wasHeroHollywoodMurderClassic: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("detective_wins_cruise_ship")
     val detectiveWinsCruiseShip: Int = 0
@@ -1316,7 +1316,7 @@ class MurderMysteryStatistics {
     val murdermysteryOpenedchests: Int = 0
 
     @SerializedName("chest_history_new")
-    val chestHistoryNew: List<String> = Collections.emptyList()
+    val chestHistoryNew: List<Any> = Collections.emptyList()
 
     @SerializedName("kills_hypixel_world_MURDER_ASSASSINS")
     val killsHypixelWorldMurderAssassins: Int = 0

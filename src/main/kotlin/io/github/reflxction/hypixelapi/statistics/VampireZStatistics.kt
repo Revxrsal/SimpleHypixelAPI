@@ -73,7 +73,7 @@ class VampireZStatistics {
     @SerializedName("advanced_swag")
     val advancedSwag: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     val constitution: Int = 0
 

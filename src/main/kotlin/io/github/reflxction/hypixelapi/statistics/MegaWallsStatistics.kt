@@ -348,7 +348,7 @@ class MegaWallsStatistics {
     @SerializedName("mutations_visibility")
     val mutationsVisibility: Boolean = false
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("pigman_a")
     val pigmanA: Int = 0

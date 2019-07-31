@@ -62,7 +62,7 @@ class BlitzStatistics {
 
     val necromancer: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
     val pigman: Int = 0
 
     val reddragon: Int = 0

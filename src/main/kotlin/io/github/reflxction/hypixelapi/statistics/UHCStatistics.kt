@@ -35,7 +35,7 @@ class UHCStatistics {
 
     val kills: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("perk_alchemy_line_a")
     val perkAlchemyLineA: Int = 0

@@ -26,7 +26,7 @@ class SpeedUHCStatistics {
     @SerializedName("firstJoinLobbyInt")
     val firstjoinlobbyint: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("tearWellUses")
     val tearwelluses: Int = 0

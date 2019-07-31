@@ -24,7 +24,7 @@ import java.util.*
 @StatisticName("TrueCombat")
 class CrazyWallsStatistics {
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("win_streak")
     val winStreak: Int = 0

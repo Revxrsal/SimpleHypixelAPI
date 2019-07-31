@@ -41,7 +41,7 @@ class BedwarsStatistics {
     @SerializedName("bedwars_box")
     val bedwarsBox: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("bedwars_box_rares")
     val bedwarsBoxRares: Int = 0
@@ -1251,7 +1251,7 @@ class BedwarsStatistics {
     val bedwarsOpenedchests: Int = 0
 
     @SerializedName("chest_history_new")
-    val chestHistoryNew: List<String> = Collections.emptyList()
+    val chestHistoryNew: List<Any> = Collections.emptyList()
 
     @SerializedName("Bedwars_openedCommons")
     val bedwarsOpenedcommons: Int = 0

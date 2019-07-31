@@ -49,7 +49,7 @@ class WallsStatistics {
     @SerializedName("monthly_wins_b")
     val monthlyWinsB: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     val sage: Int = 0
 

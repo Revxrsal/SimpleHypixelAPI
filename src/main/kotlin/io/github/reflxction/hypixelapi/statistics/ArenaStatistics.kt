@@ -70,7 +70,7 @@ class ArenaStatistics {
     @SerializedName("wins_1v1")
     val wins1v1: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     val offensive: String = ""
 

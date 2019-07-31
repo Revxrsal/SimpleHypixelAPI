@@ -42,7 +42,7 @@ class PaintballStatistics {
 
     val killstreaks: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("shots_fired")
     val shotsFired: Int = 0

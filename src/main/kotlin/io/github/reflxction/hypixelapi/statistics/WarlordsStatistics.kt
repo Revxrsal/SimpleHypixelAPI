@@ -120,7 +120,7 @@ class WarlordsStatistics {
     @SerializedName("magic_dust")
     val magicDust: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("paladin_spec")
     val paladinSpec: String = ""
@@ -200,7 +200,7 @@ class WarlordsStatistics {
     val warriorSpec: String = ""
 
     @SerializedName("weapon_inventory")
-    val weaponInventory: List<String> = Collections.emptyList()
+    val weaponInventory: List<Any> = Collections.emptyList()
 
     @SerializedName("win_streak")
     val winStreak: Int = 0
@@ -674,7 +674,7 @@ class WarlordsStatistics {
     @SerializedName("dom_point_defends")
     val domPointDefends: Int = 0
 
-    val prestiged: List<String> = Collections.emptyList()
+    val prestiged: List<Any> = Collections.emptyList()
 
     @SerializedName("powerups_collected")
     val powerupsCollected: Int = 0

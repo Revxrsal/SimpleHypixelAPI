@@ -23,7 +23,7 @@ import java.util.*
  */
 class SkywarsStatistics {
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("activeKit_TEAM")
     val activekitTeam: String = ""
@@ -3981,7 +3981,7 @@ class SkywarsStatistics {
     val skywarsOpenedcommons: Int = 0
 
     @SerializedName("skywars_chest_history")
-    val skywarsChestHistory: List<String> = Collections.emptyList()
+    val skywarsChestHistory: List<Any> = Collections.emptyList()
 
     @SerializedName("SkyWars_openedChests")
     val skywarsOpenedchests: Int = 0
@@ -4002,7 +4002,7 @@ class SkywarsStatistics {
     val skywarsEasterBoxes: Int = 0
 
     @SerializedName("chest_history_new")
-    val chestHistoryNew: List<String> = Collections.emptyList()
+    val chestHistoryNew: List<Any> = Collections.emptyList()
 
     @SerializedName("lucky_explained_last")
     val luckyExplainedLast: Int = 0

@@ -31,7 +31,7 @@ class BuildBattleStatistics {
 
     val wins: Int = 0
 
-    val packages: List<String> = Collections.emptyList()
+    val packages: List<Any> = Collections.emptyList()
 
     @SerializedName("games_played")
     val gamesPlayed: Int = 0
@@ -50,7 +50,7 @@ class BuildBattleStatistics {
     val correctGuesses: Int = 0
 
     @SerializedName("buildbattle_loadout")
-    val buildbattleLoadout: List<String> = Collections.emptyList()
+    val buildbattleLoadout: List<Any> = Collections.emptyList()
 
     @SerializedName("votes_Igloo")
     val votesIgloo: Int = 0
