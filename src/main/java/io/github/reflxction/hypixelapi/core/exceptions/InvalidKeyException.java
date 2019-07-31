@@ -1,5 +1,5 @@
 /*
- * * Copyright 2018-2019 github.com/ReflxctionDev
+ * * Copyright 2019 github.com/ReflxctionDev
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,9 +15,10 @@
  */
 package io.github.reflxction.hypixelapi.core.exceptions;
 
-public class HypixelAPIException extends RuntimeException {
-
-    private String message;
+/**
+ * Thrown when the inputted API key is invalid
+ */
+public class InvalidKeyException extends HypixelAPIException {
 
     /**
      * Constructs a new runtime exception with {@code null} as its
@@ -26,29 +27,7 @@ public class HypixelAPIException extends RuntimeException {
      *
      * @param message Exception detail message
      */
-    public HypixelAPIException(String message) {
-        this.message = message;
+    public InvalidKeyException(String message) {
+        super(message);
     }
-
-    /**
-     * Returns the detail message string of this throwable.
-     *
-     * @return the detail message string of this {@code Throwable} instance
-     * (which may be {@code null}).
-     */
-    @Override
-    public String getMessage() {
-        return message;
-    }
-
-    public HypixelAPIException with(String message) {
-        this.message += message;
-        return this;
-    }
-
-    public HypixelAPIException setMessage(String message) {
-        this.message = message;
-        return this;
-    }
-
 }

@@ -125,7 +125,7 @@ public class RequestFactory {
      */
     public JsonObject getFindGuild(String guildName) {
         String response = send(EndpointReference.getFindGuildEndpoint(key, guildName));
-        return RequestValidator.isSuccessful(construct(response), new GuildNotFoundException(guildName),
+        return RequestValidator.isSuccessful(key, construct(response), new GuildNotFoundException(guildName),
                 object -> !object.get("guild").isJsonNull());
     }
 
@@ -137,7 +137,7 @@ public class RequestFactory {
      */
     public JsonObject getFriends(String uuid) {
         String response = send(EndpointReference.getFriendsEndpoint(key, uuid));
-        return RequestValidator.isSuccessful(construct(response), new FriendsNotFoundException(uuid),
+        return RequestValidator.isSuccessful(key, construct(response), new FriendsNotFoundException(uuid),
                 object -> object.get("records").getAsJsonArray().size() != 0);
     }
 
@@ -149,7 +149,7 @@ public class RequestFactory {
      */
     public JsonObject getGuild(String id) {
         String response = send(EndpointReference.getGuildEndpoint(key, id));
-        return RequestValidator.isSuccessful(construct(response), new GuildNotFoundException(id),
+        return RequestValidator.isSuccessful(key, construct(response), new GuildNotFoundException(id),
                 object -> !object.get("guild").isJsonNull());
     }
 
@@ -181,7 +181,7 @@ public class RequestFactory {
      */
     public JsonObject getPlayerByName(String name) {
         String response = send(EndpointReference.getPlayerByNameEndpoint(key, name));
-        return RequestValidator.isSuccessful(construct(response), new PlayerNotFoundException(name),
+        return RequestValidator.isSuccessful(key, construct(response), new PlayerNotFoundException(name),
                 object -> !object.get("player").isJsonNull());
     }
 
@@ -193,7 +193,7 @@ public class RequestFactory {
      */
     public JsonObject getPlayerByUUID(String uuid) {
         String response = send(EndpointReference.getPlayerByUUIDEndpoint(key, uuid));
-        return RequestValidator.isSuccessful(construct(response), new PlayerNotFoundException(uuid),
+        return RequestValidator.isSuccessful(key, construct(response), new PlayerNotFoundException(uuid),
                 object -> !object.get("player").isJsonNull());
     }
 
@@ -215,7 +215,7 @@ public class RequestFactory {
      */
     public JsonObject getSession(String uuid) {
         String response = send(EndpointReference.getSessionEndpoint(key, uuid));
-        return RequestValidator.isSuccessful(construct(response), new InvalidPlayerSessionException(uuid),
+        return RequestValidator.isSuccessful(key, construct(response), new InvalidPlayerSessionException(uuid),
                 object -> !object.get("session").isJsonNull());
     }
 

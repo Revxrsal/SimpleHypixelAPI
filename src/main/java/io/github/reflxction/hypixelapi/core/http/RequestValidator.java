@@ -17,6 +17,8 @@ package io.github.reflxction.hypixelapi.core.http;
 
 import com.google.gson.JsonObject;
 import io.github.reflxction.hypixelapi.core.exceptions.HypixelAPIException;
+import io.github.reflxction.hypixelapi.core.exceptions.InvalidKeyException;
+import io.github.reflxction.hypixelapi.core.exceptions.RequestThrottleException;
 
 import java.util.function.Predicate;
 
@@ -24,6 +26,8 @@ import java.util.function.Predicate;
  * A simple utility for validating requests
  */
 public class RequestValidator {
+
+    private static final String INVALID_KEY = "Invalid API key!";
 
     /**
      * Returns the given JSON object if the request was successful, or throws the given exception
@@ -35,8 +39,13 @@ public class RequestValidator {
      * @param apiException The exception to throw
      * @return The given JSON object
      */
-    public static <T extends HypixelAPIException> JsonObject isSuccessful(JsonObject object, T apiException, Predicate<JsonObject> predicate) {
-        if (!object.get("success").getAsBoolean() || !predicate.test(object))
+    public static <T extends HypixelAPIException> JsonObject isSuccessful(String key, JsonObject object, T apiException, Predicate<JsonObject> predicate) {
+        boolean success = object.get("success").getAsBoolean();
+        if (!success && object.get("cause").getAsString().equals(INVALID_KEY))
+            throw new InvalidKeyException(key);
+        if (object.has("throttle") && object.get("throttle").getAsBoolean())
+            throw new RequestThrottleException("You have passed the API throttle limit!");
+        if (!success || !predicate.test(object))
             throw apiException;
         return object;
     }
