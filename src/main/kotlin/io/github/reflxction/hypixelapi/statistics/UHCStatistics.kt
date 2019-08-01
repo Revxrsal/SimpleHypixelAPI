@@ -27,8 +27,7 @@ class UHCStatistics {
 
     val deaths: Int = 0
 
-    @SerializedName("equippedKit")
-    val equippedkit: String = ""
+    val equippedKit: String = ""
 
     @SerializedName("heads_eaten")
     val headsEaten: Int = 0
@@ -135,19 +134,19 @@ class UHCStatistics {
     val kitLunchBox: Int = 0
 
     @SerializedName("monthly_kills_b")
-    val monthlyKillsB1: Int = 0
+    val monthlyKillsB: Int = 0
 
     @SerializedName("monthly_wins_b")
-    val monthlyWinsB1: Int = 0
+    val monthlyWinsB: Int = 0
 
     @SerializedName("perk_cooking_prestige")
     val perkCookingPrestige: Int = 0
 
     @SerializedName("monthly_kills_a")
-    val monthlyKillsA1: Int = 0
+    val monthlyKillsA: Int = 0
 
     @SerializedName("monthly_wins_a")
-    val monthlyWinsA1: Int = 0
+    val monthlyWinsA: Int = 0
 
     @SerializedName("perk_armorsmith_prestige")
     val perkArmorsmithPrestige: Int = 0
@@ -167,31 +166,13 @@ class UHCStatistics {
     @SerializedName("heads_eaten_solo")
     val headsEatenSolo: Int = 0
 
-    @SerializedName("monthly_kills__a")
-    val monthlyKillsA: Int = 0
-
-    @SerializedName("monthly_wins__a")
-    val monthlyWinsA: Int = 0
-
     @SerializedName("wins_solo")
     val winsSolo: Int = 0
 
-    @SerializedName("monthly_kills__solo_a")
-    val monthlyKillsSoloA: Int = 0
-
-    @SerializedName("monthly_wins__solo_a")
-    val monthlyWinsSoloA: Int = 0
-
     val cache3: Boolean = false
-
-    @SerializedName("monthly_kills__b")
-    val monthlyKillsB: Int = 0
 
     @SerializedName("monthly_wins__solo_b")
     val monthlyWinsSoloB: Int = 0
-
-    @SerializedName("monthly_wins__b")
-    val monthlyWinsB: Int = 0
 
     @SerializedName("perk_enchanting_prestige")
     val perkEnchantingPrestige: Int = 0

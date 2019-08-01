@@ -31,8 +31,7 @@ class SkywarsStatistics {
     @SerializedName("soul_well")
     val soulWell: Int = 0
 
-    @SerializedName("usedSoulWell")
-    val usedsoulwell: Boolean = false
+    val usedSoulWell: Boolean = false
 
     @SerializedName("win_streak")
     val winStreak: Int = 0
@@ -223,9 +222,6 @@ class SkywarsStatistics {
 
     @SerializedName("kills_mega_normal")
     val killsMegaNormal: Int = 0
-
-    @SerializedName("activeCage")
-    val activecage: String = ""
 
     @SerializedName("team_instant_smelting")
     val teamInstantSmelting: Int = 0
@@ -1076,11 +1072,9 @@ class SkywarsStatistics {
     @SerializedName("wins_ranked")
     val winsRanked: Int = 0
 
-    @SerializedName("highestKillstreak")
-    val highestkillstreak: Int = 0
+    val highestKillstreak: Int = 0
 
-    @SerializedName("highestWinstreak")
-    val highestwinstreak: Int = 0
+    val highestWinstreak: Int = 0
 
     @SerializedName("deaths_kit_ranked_ranked_default")
     val deathsKitRankedRankedDefault: Int = 0
@@ -1580,8 +1574,7 @@ class SkywarsStatistics {
     @SerializedName("assists_kit_ranked_ranked_scout")
     val assistsKitRankedRankedScout: Int = 0
 
-    @SerializedName("activeVictoryDance")
-    val activevictorydance: String = ""
+    val activeVictoryDance: String = ""
 
     @SerializedName("votes_Agni Temple")
     val votesAgniTemple: Int = 0
@@ -1652,8 +1645,7 @@ class SkywarsStatistics {
     @SerializedName("killstreak_kit_mega_mega_cannoneer")
     val killstreakKitMegaMegaCannoneer: Int = 0
 
-    @SerializedName("activeKillEffect")
-    val activekilleffect: String = ""
+    val activeKillEffect: String = ""
 
     @SerializedName("deaths_kit_ranked_ranked_healer")
     val deathsKitRankedRankedHealer: Int = 0
@@ -1697,8 +1689,7 @@ class SkywarsStatistics {
     @SerializedName("assists_kit_attacking_team_scout")
     val assistsKitAttackingTeamScout: Int = 0
 
-    @SerializedName("activeProjectileTrail")
-    val activeprojectiletrail: String = ""
+    val activeProjectileTrail: String = ""
 
     @SerializedName("mega_marksmanship")
     val megaMarksmanship: Int = 0
@@ -3023,8 +3014,7 @@ class SkywarsStatistics {
     @SerializedName("fastest_win_kit_mining_team_cannoneer")
     val fastestWinKitMiningTeamCannoneer: Int = 0
 
-    @SerializedName("lastMode")
-    val lastmode: String = ""
+    val lastMode: String = ""
 
     @SerializedName("games_played_skywars")
     val gamesPlayedSkywars: Int = 0
@@ -3398,8 +3388,7 @@ class SkywarsStatistics {
     @SerializedName("void_kills_kit_attacking_team_snowman")
     val voidKillsKitAttackingTeamSnowman: Int = 0
 
-    @SerializedName("activeDeathCry")
-    val activedeathcry: String = ""
+    val activeDeathCry: String = ""
 
     @SerializedName("longest_bow_shot_kit_ranked_ranked_pyromancer")
     val longestBowShotKitRankedRankedPyromancer: Int = 0
@@ -3968,8 +3957,7 @@ class SkywarsStatistics {
     @SerializedName("active_projectiletrail")
     val activeProjectiletrail: String = ""
 
-    @SerializedName("freeLootChestNpc")
-    val freelootchestnpc: Int = 0
+    val freeLootChestNpc: Int = 0
 
     @SerializedName("skywars_chests")
     val skywarsChests: Int = 0
@@ -4675,7 +4663,7 @@ class SkywarsStatistics {
     val headsDivineKitAdvancedSoloKnight: Int = 0
 
     @SerializedName("head_collection")
-    val headCollection: Map<String, List<Map<String, Any>>> = Collections.emptyMap()
+    val headCollection: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("heads_salty")
     val headsSalty: Int = 0
@@ -5010,8 +4998,7 @@ class SkywarsStatistics {
     @SerializedName("longest_bow_kill_kit_attacking_team_enderman")
     val longestBowKillKitAttackingTeamEnderman: Int = 0
 
-    @SerializedName("levelFormatted")
-    val levelformatted: String = ""
+    val levelFormatted: String = ""
 
     @SerializedName("activeKit_TEAMS_tourney_random")
     val activekitTeamsTourneyRandom: Boolean = false
@@ -5378,4 +5365,11 @@ class SkywarsStatistics {
 
     @SerializedName("heads_tasty_kit_defending_team_frog")
     val headsTastyKitDefendingTeamFrog: Int = 0
+
+    @SerializedName("SkyWars_skywars_rating_7_19_rating")
+    val skywarsSkywarsRating719Rating: Int = 0
+
+    @SerializedName("SkyWars_skywars_rating_7_19_position")
+    val skywarsSkywarsRating719Position: Int = 0
+
 }

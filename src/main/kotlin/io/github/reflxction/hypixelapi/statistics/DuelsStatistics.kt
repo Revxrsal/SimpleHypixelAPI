@@ -1129,8 +1129,7 @@ class DuelsStatistics {
     @SerializedName("current_bridge_winstreak")
     val currentBridgeWinstreak: Int = 0
 
-    @SerializedName("bridgeMapWins")
-    val bridgemapwins: List<Any> = Collections.emptyList()
+    val bridgeMapWins: List<Any> = Collections.emptyList()
 
     @SerializedName("best_bridge_winstreak")
     val bestBridgeWinstreak: Int = 0
@@ -1276,8 +1275,7 @@ class DuelsStatistics {
     @SerializedName("mw_duel_deaths")
     val mwDuelDeaths: Int = 0
 
-    @SerializedName("matchHistory2")
-    val matchhistory2: List<Any> = Collections.emptyList()
+    val matchHistory2: List<Any> = Collections.emptyList()
 
     @SerializedName("season_1_reward_fixes")
     val season1RewardFixes: Boolean = false

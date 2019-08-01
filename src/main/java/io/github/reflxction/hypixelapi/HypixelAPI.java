@@ -71,13 +71,12 @@ public interface HypixelAPI {
     String getGuildId(String guildName);
 
     /**
-     * Returns the ID of the guild that the specified player is in. This can be used to fetch data
-     * from {@link #getGuild(String)} which takes a String parameter (The guild ID)
+     * Returns the {@link Guild} of the specified player.
      *
-     * @param playerUUID Name of the guild to fetch the ID of.
+     * @param playerUUID UUID of the player
      * @return The ID of the given guild name.
      */
-    String getGuildId(UUID playerUUID);
+    Guild getGuild(UUID playerUUID);
 
     /**
      * Returns a {@link Guild} from the given ID. IDs can be fetched from {@link #getGuildId(String)}

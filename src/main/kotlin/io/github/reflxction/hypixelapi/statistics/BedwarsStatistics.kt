@@ -350,20 +350,16 @@ class BedwarsStatistics {
     @SerializedName("fall_final_kills_bedwars")
     val fallFinalKills: Int = 0
 
-    @SerializedName("activeProjectileTrail")
-    val activeprojectiletrail: String = ""
+    val activeProjectileTrail: String = ""
 
     @SerializedName("spray_storage_new")
     val sprayStorageNew: String = ""
 
-    @SerializedName("activeIslandTopper")
-    val activeislandtopper: String = ""
+    val activeIslandTopper: String = ""
 
-    @SerializedName("activeDeathCry")
-    val activedeathcry: String = ""
+    val activeDeathCry: String = ""
 
-    @SerializedName("activeNPCSkin")
-    val activenpcskin: String = ""
+    val activeNPCSkin: String = ""
 
     @SerializedName("glyph_storage_new")
     val glyphStorageNew: String = ""
@@ -380,8 +376,7 @@ class BedwarsStatistics {
     @SerializedName("bedwars_box_legendaries")
     val bedwarsBoxLegendaries: Int = 0
 
-    @SerializedName("activeKillMessages")
-    val activekillmessages: String = ""
+    val activeKillMessages: String = ""
 
     @SerializedName("entity_explosion_deaths_bedwars")
     val entityExplosionDeaths: Int = 0
@@ -470,8 +465,7 @@ class BedwarsStatistics {
     @SerializedName("eight_one_gold_resources_collected_bedwars")
     val soloGoldResourcesCollected: Int = 0
 
-    @SerializedName("activeKillEffect")
-    val activekilleffect: String = ""
+    val activeKillEffect: String = ""
 
     @SerializedName("eight_one_entity_attack_final_kills_bedwars")
     val soloEntityAttackFinalKills: Int = 0
@@ -485,8 +479,7 @@ class BedwarsStatistics {
     @SerializedName("four_four_fall_final_deaths_bedwars")
     val fourFourFallFinalDeaths: Int = 0
 
-    @SerializedName("activeVictoryDance")
-    val activevictorydance: String = ""
+    val activeVictoryDance: String = ""
 
     @SerializedName("quickjoin_uses_Stonekeep")
     val quickjoinUsesStonekeep: Int = 0

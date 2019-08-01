@@ -23,13 +23,11 @@ import java.util.*
  */
 class SpeedUHCStatistics {
 
-    @SerializedName("firstJoinLobbyInt")
-    val firstjoinlobbyint: Int = 0
+    val firstJoinLobbyInt: Int = 0
 
     val packages: List<Any> = Collections.emptyList()
 
-    @SerializedName("tearWellUses")
-    val tearwelluses: Int = 0
+    val tearWellUses: Int = 0
 
     val tears: Int = 0
 
@@ -41,8 +39,7 @@ class SpeedUHCStatistics {
 
     val killstreak: Int = 0
 
-    @SerializedName("highestKillstreak")
-    val highestkillstreak: Int = 0
+    val highestKillstreak: Int = 0
 
     @SerializedName("win_streak")
     val winStreak: Int = 0
@@ -206,8 +203,7 @@ class SpeedUHCStatistics {
     @SerializedName("killstreak_normal")
     val killstreakNormal: Int = 0
 
-    @SerializedName("highestWinstreak")
-    val highestwinstreak: Int = 0
+    val highestWinstreak: Int = 0
 
     @SerializedName("deaths_solo_normal")
     val deathsSoloNormal: Int = 0
@@ -898,8 +894,7 @@ class SpeedUHCStatistics {
     @SerializedName("mastery_fortune")
     val masteryFortune: Int = 0
 
-    @SerializedName("activeMasterPerk")
-    val activemasterperk: String = ""
+    val activeMasterPerk: String = ""
 
     @SerializedName("losses_mastery_fortune")
     val lossesMasteryFortune: Int = 0
@@ -1232,7 +1227,7 @@ class SpeedUHCStatistics {
     val assistsKitBasicInsaneFarmer: Int = 0
 
     @SerializedName("§fSplashPotionofJump_drop")
-    val splashPotionOfJumpDrop: Int = 0
+    val splashpotionofjumpDrop: Int = 0
 
     @SerializedName("normal_marksmob")
     val normalMarksmob: Int = 0
@@ -1370,7 +1365,7 @@ class SpeedUHCStatistics {
     val votedInsaneGrace: Boolean = false
 
     @SerializedName("§fSplashPotionofRegeneration_drop")
-    val splashPotionOfRegenerationDrop: Int = 0
+    val splashpotionofregenerationDrop: Int = 0
 
     @SerializedName("score_solo")
     val scoreSolo: Int = 0
@@ -1407,8 +1402,7 @@ class SpeedUHCStatistics {
     @SerializedName("score_team")
     val scoreTeam: Int = 0
 
-    @SerializedName("movedOver")
-    val movedover: Boolean = false
+    val movedOver: Boolean = false
 
     @SerializedName("mastery_vampirism")
     val masteryVampirism: Int = 0

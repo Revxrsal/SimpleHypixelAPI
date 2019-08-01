@@ -166,8 +166,7 @@ class VampireZStatistics {
     @SerializedName("gold_bought")
     val goldBought: Int = 0
 
-    @SerializedName("combatTracker")
-    val combattracker: Boolean = false
+    val combatTracker: Boolean = false
 
     @SerializedName("frankensteins_monster")
     val frankensteinsMonster: Int = 0
@@ -189,6 +188,15 @@ class VampireZStatistics {
 
     @SerializedName("vampire_wins")
     val vampireWins: Int = 0
+
+    @SerializedName("using_old")
+    val usingOld: Boolean = false
+
+    @SerializedName("using_old_vamp")
+    val usingOldVamp: Boolean = false
+
+    @SerializedName("most_vampire_kills_new")
+    val mostVampireKillsNew: Int = 0
 
     @SerializedName("no_starting_compass")
     val noStartingCompass: Boolean = false

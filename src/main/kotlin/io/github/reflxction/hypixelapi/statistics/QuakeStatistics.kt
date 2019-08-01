@@ -39,8 +39,7 @@ class QuakeStatistics {
 
     val muzzle: String = ""
 
-    @SerializedName("null")
-    val _null: String = ""
+    val _Null: String = ""
 
     val packages: List<Any> = Collections.emptyList()
 
@@ -60,9 +59,8 @@ class QuakeStatistics {
     val deathsTeams: Int = 0
 
     @SerializedName("killstreaks_teams")
-    val killStreaksTeams: Int = 0
+    val killstreaksTeams: Int = 0
 
-    @SerializedName("instantRespawn")
     val instantRespawn: Boolean = false
 
     @SerializedName("monthly_kills_b")
@@ -72,7 +70,7 @@ class QuakeStatistics {
     val weeklyKillsB: Int = 0
 
     @SerializedName("weekly_kills_a")
-    val weeklykillsA: Int = 0
+    val weeklyKillsA: Int = 0
 
     @SerializedName("monthly_kills_a")
     val monthlyKillsA: Int = 0
@@ -83,7 +81,6 @@ class QuakeStatistics {
     @SerializedName("dash_power")
     val dashPower: String = ""
 
-    @SerializedName("showKillPrefix")
     val showKillPrefix: Boolean = false
 
     @SerializedName("compass_selected")
@@ -93,7 +90,7 @@ class QuakeStatistics {
     val enableSound: Boolean = false
 
     @SerializedName("highest_killstreak")
-    val highestKillStreak: Int = 0
+    val highestKillstreak: Int = 0
 
     val headshots: Int = 0
 
@@ -115,14 +112,13 @@ class QuakeStatistics {
     @SerializedName("shots_fired_teams")
     val shotsFiredTeams: Int = 0
 
-    @SerializedName("showDashCooldown")
     val showDashCooldown: Boolean = false
 
     @SerializedName("headshots_teams")
     val headshotsTeams: Int = 0
 
     @SerializedName("kills_timeattack")
-    val killsTimeAttack: Int = 0
+    val killsTimeattack: Int = 0
 
     @SerializedName("kills_dm_teams")
     val killsDmTeams: Int = 0
@@ -173,10 +169,10 @@ class QuakeStatistics {
     val votesFaarah: Int = 0
 
     @SerializedName("votes_Cold_War")
-    val votesColdwar: Int = 0
+    val votesColdWar: Int = 0
 
     @SerializedName("votes_Apex II")
-    val votesApexii: Int = 0
+    val votesApexIi: Int = 0
 
     @SerializedName("votes_Library")
     val votesLibrary: Int = 0
@@ -191,32 +187,29 @@ class QuakeStatistics {
     val votesSunken: Int = 0
 
     @SerializedName("messageOthers' Kills/deaths")
-    val messageOthersKillsDeaths: Boolean = false
+    val messageothersKillsDeaths: Boolean = false
 
     @SerializedName("messageYour Deaths")
-    val messageyourdeaths: Boolean = false
+    val messageyourDeaths: Boolean = false
 
     @SerializedName("messageCoin Messages")
-    val messagecoinmessages: Boolean = false
+    val messagecoinMessages: Boolean = false
 
     @SerializedName("messageYour Kills")
-    val messageyourkills: Boolean = false
+    val messageyourKills: Boolean = false
 
-    @SerializedName("messageKillstreaks")
-    val messagekillstreaks: Boolean = false
+    val messageKillstreaks: Boolean = false
 
     @SerializedName("messagePowerup Collections")
-    val messagepowerupcollections: Boolean = false
+    val messagepowerupCollections: Boolean = false
 
-    @SerializedName("messageMulti-kills")
     val messageMultiKills: Boolean = false
 
     val beam: String = ""
 
     @SerializedName("votes_WoodStone")
-    val votesWoodStone: Int = 0
+    val votesWoodstone: Int = 0
 
-    @SerializedName("selectedKillPrefix")
     val selectedKillPrefix: String = ""
 
     val hat: String = ""

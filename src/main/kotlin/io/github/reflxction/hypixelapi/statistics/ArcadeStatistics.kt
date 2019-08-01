@@ -140,16 +140,16 @@ class ArcadeStatistics {
     val fastestTime30Zombies: Int = 0
 
     @SerializedName("fastest_time_10_zombies_deadend_normal")
-    val fastestTime10ZombiesDeadendNormal: Int = 0
+    val fastestTime10ZombiesDeadEndNormal: Int = 0
 
     @SerializedName("fastest_time_20_zombies")
     val fastestTime20Zombies: Int = 0
 
     @SerializedName("fastest_time_30_zombies_deadend_normal")
-    val fastestTime30ZombiesDeadendNormal: Int = 0
+    val fastestTime30ZombiesDeadEndNormal: Int = 0
 
     @SerializedName("fastest_time_20_zombies_deadend_normal")
-    val fastestTime20ZombiesDeadendNormal: Int = 0
+    val fastestTime20ZombiesDeadEndNormal: Int = 0
 
     @SerializedName("fastest_time_10_zombies")
     val fastestTime10Zombies: Int = 0
@@ -164,13 +164,13 @@ class ArcadeStatistics {
     val bulletsHitZombies: Int = 0
 
     @SerializedName("fastest_time_10_zombies_badblood_normal")
-    val fastestTime10ZombiesBadbloodNormal: Int = 0
+    val fastestTime10ZombiesBadBloodNormal: Int = 0
 
     @SerializedName("fastest_time_20_zombies_badblood_normal")
-    val fastestTime20ZombiesBadbloodNormal: Int = 0
+    val fastestTime20ZombiesBadBloodNormal: Int = 0
 
     @SerializedName("fastest_time_30_zombies_badblood_normal")
-    val fastestTime30ZombiesBadbloodNormal: Int = 0
+    val fastestTime30ZombiesBadBloodNormal: Int = 0
 
     @SerializedName("wins_throw_out")
     val winsThrowOut: Int = 0
@@ -200,22 +200,22 @@ class ArcadeStatistics {
     val hitwRecordF: Int = 0
 
     @SerializedName("deaths_zombies_alienarcadium")
-    val deathsZombiesAlienarcadium: Int = 0
+    val deathsZombiesAlienArcadium: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_alienarcadium")
-    val totalRoundsSurvivedZombiesAlienarcadium: Int = 0
+    val totalRoundsSurvivedZombiesAlienArcadium: Int = 0
 
     @SerializedName("total_rounds_survived_zombies")
     val totalRoundsSurvivedZombies: Int = 0
 
     @SerializedName("best_round_zombies_alienarcadium")
-    val bestRoundZombiesAlienarcadium: Int = 0
+    val bestRoundZombiesAlienArcadium: Int = 0
 
     @SerializedName("best_round_zombies_alienarcadium_normal")
-    val bestRoundZombiesAlienarcadiumNormal: Int = 0
+    val bestRoundZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("fastest_time_10_zombies_alienarcadium_normal")
-    val fastestTime10ZombiesAlienarcadiumNormal: Int = 0
+    val fastestTime10ZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("rainbow_zombie_kills_zombies")
     val rainbowZombieKillsZombies: Int = 0
@@ -224,13 +224,13 @@ class ArcadeStatistics {
     val spaceBlasterZombieKillsZombies: Int = 0
 
     @SerializedName("windows_repaired_zombies_alienarcadium")
-    val windowsRepairedZombiesAlienarcadium: Int = 0
+    val windowsRepairedZombiesAlienArcadium: Int = 0
 
     @SerializedName("times_knocked_down_zombies_alienarcadium")
-    val timesKnockedDownZombiesAlienarcadium: Int = 0
+    val timesKnockedDownZombiesAlienArcadium: Int = 0
 
     @SerializedName("zombie_kills_zombies_alienarcadium_normal")
-    val zombieKillsZombiesAlienarcadiumNormal: Int = 0
+    val zombieKillsZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("worm_small_zombie_kills_zombies")
     val wormSmallZombieKillsZombies: Int = 0
@@ -239,16 +239,16 @@ class ArcadeStatistics {
     val basicZombieKillsZombies: Int = 0
 
     @SerializedName("windows_repaired_zombies_alienarcadium_normal")
-    val windowsRepairedZombiesAlienarcadiumNormal: Int = 0
+    val windowsRepairedZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("worm_zombie_kills_zombies")
     val wormZombieKillsZombies: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_alienarcadium_normal")
-    val totalRoundsSurvivedZombiesAlienarcadiumNormal: Int = 0
+    val totalRoundsSurvivedZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("times_knocked_down_zombies_alienarcadium_normal")
-    val timesKnockedDownZombiesAlienarcadiumNormal: Int = 0
+    val timesKnockedDownZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("windows_repaired_zombies")
     val windowsRepairedZombies: Int = 0
@@ -257,13 +257,13 @@ class ArcadeStatistics {
     val sentinelZombieKillsZombies: Int = 0
 
     @SerializedName("zombie_kills_zombies_alienarcadium")
-    val zombieKillsZombiesAlienarcadium: Int = 0
+    val zombieKillsZombiesAlienArcadium: Int = 0
 
     @SerializedName("pig_zombie_zombie_kills_zombies")
     val pigZombieZombieKillsZombies: Int = 0
 
     @SerializedName("deaths_zombies_alienarcadium_normal")
-    val deathsZombiesAlienarcadiumNormal: Int = 0
+    val deathsZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("skeleton_zombie_kills_zombies")
     val skeletonZombieKillsZombies: Int = 0
@@ -278,25 +278,25 @@ class ArcadeStatistics {
     val clownZombieKillsZombies: Int = 0
 
     @SerializedName("doors_opened_zombies_alienarcadium")
-    val doorsOpenedZombiesAlienarcadium: Int = 0
+    val doorsOpenedZombiesAlienArcadium: Int = 0
 
     @SerializedName("players_revived_zombies_alienarcadium")
-    val playersRevivedZombiesAlienarcadium: Int = 0
+    val playersRevivedZombiesAlienArcadium: Int = 0
 
     @SerializedName("doors_opened_zombies_alienarcadium_normal")
-    val doorsOpenedZombiesAlienarcadiumNormal: Int = 0
+    val doorsOpenedZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("players_revived_zombies_alienarcadium_normal")
-    val playersRevivedZombiesAlienarcadiumNormal: Int = 0
+    val playersRevivedZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("magma_cube_zombie_kills_zombies")
     val magmaCubeZombieKillsZombies: Int = 0
 
     @SerializedName("deaths_zombies_deadend")
-    val deathsZombiesDeadend: Int = 0
+    val deathsZombiesDeadEnd: Int = 0
 
     @SerializedName("windows_repaired_zombies_deadend")
-    val windowsRepairedZombiesDeadend: Int = 0
+    val windowsRepairedZombiesDeadEnd: Int = 0
 
     @SerializedName("tnt_baby_zombie_kills_zombies")
     val tntBabyZombieKillsZombies: Int = 0
@@ -305,10 +305,10 @@ class ArcadeStatistics {
     val magmaZombieKillsZombies: Int = 0
 
     @SerializedName("zombie_kills_zombies_deadend")
-    val zombieKillsZombiesDeadend: Int = 0
+    val zombieKillsZombiesDeadEnd: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_deadend")
-    val totalRoundsSurvivedZombiesDeadend: Int = 0
+    val totalRoundsSurvivedZombiesDeadEnd: Int = 0
 
     @SerializedName("fire_zombie_kills_zombies")
     val fireZombieKillsZombies: Int = 0
@@ -320,43 +320,43 @@ class ArcadeStatistics {
     val empoweredZombieKillsZombies: Int = 0
 
     @SerializedName("doors_opened_zombies_deadend")
-    val doorsOpenedZombiesDeadend: Int = 0
+    val doorsOpenedZombiesDeadEnd: Int = 0
 
     @SerializedName("times_knocked_down_zombies_deadend")
-    val timesKnockedDownZombiesDeadend: Int = 0
+    val timesKnockedDownZombiesDeadEnd: Int = 0
 
     @SerializedName("players_revived_zombies_deadend")
-    val playersRevivedZombiesDeadend: Int = 0
+    val playersRevivedZombiesDeadEnd: Int = 0
 
     @SerializedName("best_round_zombies_deadend")
-    val bestRoundZombiesDeadend: Int = 0
+    val bestRoundZombiesDeadEnd: Int = 0
 
     @SerializedName("best_round_zombies_deadend_rip")
-    val bestRoundZombiesDeadendRip: Int = 0
+    val bestRoundZombiesDeadEndRIP: Int = 0
 
     @SerializedName("deaths_zombies_deadend_rip")
-    val deathsZombiesDeadendRip: Int = 0
+    val deathsZombiesDeadEndRIP: Int = 0
 
     @SerializedName("windows_repaired_zombies_deadend_rip")
-    val windowsRepairedZombiesDeadendRip: Int = 0
+    val windowsRepairedZombiesDeadEndRIP: Int = 0
 
     @SerializedName("times_knocked_down_zombies_deadend_rip")
-    val timesKnockedDownZombiesDeadendRip: Int = 0
+    val timesKnockedDownZombiesDeadEndRIP: Int = 0
 
     @SerializedName("zombie_kills_zombies_deadend_rip")
-    val zombieKillsZombiesDeadendRip: Int = 0
+    val zombieKillsZombiesDeadEndRIP: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_deadend_rip")
-    val totalRoundsSurvivedZombiesDeadendRip: Int = 0
+    val totalRoundsSurvivedZombiesDeadEndRIP: Int = 0
 
     @SerializedName("doors_opened_zombies_deadend_rip")
-    val doorsOpenedZombiesDeadendRip: Int = 0
+    val doorsOpenedZombiesDeadEndRIP: Int = 0
 
     @SerializedName("players_revived_zombies_deadend_rip")
-    val playersRevivedZombiesDeadendRip: Int = 0
+    val playersRevivedZombiesDeadEndRIP: Int = 0
 
     @SerializedName("fastest_time_10_zombies_deadend_rip")
-    val fastestTime10ZombiesDeadendRip: Int = 0
+    val fastestTime10ZombiesDeadEndRIP: Int = 0
 
     @SerializedName("inferno_zombie_kills_zombies")
     val infernoZombieKillsZombies: Int = 0
@@ -368,16 +368,16 @@ class ArcadeStatistics {
     val tntZombieKillsZombies: Int = 0
 
     @SerializedName("fastest_time_30_zombies_deadend_rip")
-    val fastestTime30ZombiesDeadendRip: Int = 0
+    val fastestTime30ZombiesDeadEndRIP: Int = 0
 
     @SerializedName("fastest_time_20_zombies_deadend_rip")
-    val fastestTime20ZombiesDeadendRip: Int = 0
+    val fastestTime20ZombiesDeadEndRIP: Int = 0
 
     @SerializedName("wins_zombies")
     val winsZombies: Int = 0
 
     @SerializedName("wins_zombies_deadend")
-    val winsZombiesDeadend: Int = 0
+    val winsZombiesDeadEnd: Int = 0
 
     @SerializedName("endermite_zombie_kills_zombies")
     val endermiteZombieKillsZombies: Int = 0
@@ -389,7 +389,7 @@ class ArcadeStatistics {
     val guardianZombieKillsZombies: Int = 0
 
     @SerializedName("wins_zombies_deadend_rip")
-    val winsZombiesDeadendRip: Int = 0
+    val winsZombiesDeadEndRIP: Int = 0
 
     @SerializedName("broodmother_zombie_kills_zombies")
     val broodmotherZombieKillsZombies: Int = 0
@@ -401,37 +401,37 @@ class ArcadeStatistics {
     val enderZombieKillsZombies: Int = 0
 
     @SerializedName("fastest_time_10_zombies_badblood_hard")
-    val fastestTime10ZombiesBadbloodHard: Int = 0
+    val fastestTime10ZombiesBadBloodHard: Int = 0
 
     @SerializedName("best_round_zombies_badblood")
-    val bestRoundZombiesBadblood: Int = 0
+    val bestRoundZombiesBadBlood: Int = 0
 
     @SerializedName("best_round_zombies_badblood_hard")
-    val bestRoundZombiesBadbloodHard: Int = 0
+    val bestRoundZombiesBadBloodHard: Int = 0
 
     @SerializedName("players_revived_zombies_badblood_hard")
-    val playersRevivedZombiesBadbloodHard: Int = 0
+    val playersRevivedZombiesBadBloodHard: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_badblood")
-    val totalRoundsSurvivedZombiesBadblood: Int = 0
+    val totalRoundsSurvivedZombiesBadBlood: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_badblood_hard")
-    val totalRoundsSurvivedZombiesBadbloodHard: Int = 0
+    val totalRoundsSurvivedZombiesBadBloodHard: Int = 0
 
     @SerializedName("wither_zombie_zombie_kills_zombies")
     val witherZombieZombieKillsZombies: Int = 0
 
     @SerializedName("deaths_zombies_badblood")
-    val deathsZombiesBadblood: Int = 0
+    val deathsZombiesBadBlood: Int = 0
 
     @SerializedName("witch_zombie_kills_zombies")
     val witchZombieKillsZombies: Int = 0
 
     @SerializedName("zombie_kills_zombies_badblood_hard")
-    val zombieKillsZombiesBadbloodHard: Int = 0
+    val zombieKillsZombiesBadBloodHard: Int = 0
 
     @SerializedName("players_revived_zombies_badblood")
-    val playersRevivedZombiesBadblood: Int = 0
+    val playersRevivedZombiesBadBlood: Int = 0
 
     @SerializedName("werewolf_zombie_kills_zombies")
     val werewolfZombieKillsZombies: Int = 0
@@ -440,7 +440,7 @@ class ArcadeStatistics {
     val familyTwinBlueZombieKillsZombies: Int = 0
 
     @SerializedName("times_knocked_down_zombies_badblood_hard")
-    val timesKnockedDownZombiesBadbloodHard: Int = 0
+    val timesKnockedDownZombiesBadBloodHard: Int = 0
 
     @SerializedName("family_twin_red_zombie_kills_zombies")
     val familyTwinRedZombieKillsZombies: Int = 0
@@ -449,16 +449,16 @@ class ArcadeStatistics {
     val slimeZombieKillsZombies: Int = 0
 
     @SerializedName("windows_repaired_zombies_badblood_hard")
-    val windowsRepairedZombiesBadbloodHard: Int = 0
+    val windowsRepairedZombiesBadBloodHard: Int = 0
 
     @SerializedName("king_slime_zombie_kills_zombies")
     val kingSlimeZombieKillsZombies: Int = 0
 
     @SerializedName("doors_opened_zombies_badblood_hard")
-    val doorsOpenedZombiesBadbloodHard: Int = 0
+    val doorsOpenedZombiesBadBloodHard: Int = 0
 
     @SerializedName("doors_opened_zombies_badblood")
-    val doorsOpenedZombiesBadblood: Int = 0
+    val doorsOpenedZombiesBadBlood: Int = 0
 
     @SerializedName("slime_zombie_zombie_kills_zombies")
     val slimeZombieZombieKillsZombies: Int = 0
@@ -467,25 +467,25 @@ class ArcadeStatistics {
     val caveSpiderZombieKillsZombies: Int = 0
 
     @SerializedName("deaths_zombies_badblood_hard")
-    val deathsZombiesBadbloodHard: Int = 0
+    val deathsZombiesBadBloodHard: Int = 0
 
     @SerializedName("times_knocked_down_zombies_badblood")
-    val timesKnockedDownZombiesBadblood: Int = 0
+    val timesKnockedDownZombiesBadBlood: Int = 0
 
     @SerializedName("windows_repaired_zombies_badblood")
-    val windowsRepairedZombiesBadblood: Int = 0
+    val windowsRepairedZombiesBadBlood: Int = 0
 
     @SerializedName("zombie_kills_zombies_badblood")
-    val zombieKillsZombiesBadblood: Int = 0
+    val zombieKillsZombiesBadBlood: Int = 0
 
     @SerializedName("fastest_time_20_zombies_badblood_hard")
-    val fastestTime20ZombiesBadbloodHard: Int = 0
+    val fastestTime20ZombiesBadBloodHard: Int = 0
 
     @SerializedName("fastest_time_30_zombies_badblood_hard")
-    val fastestTime30ZombiesBadbloodHard: Int = 0
+    val fastestTime30ZombiesBadBloodHard: Int = 0
 
     @SerializedName("wins_zombies_badblood_hard")
-    val winsZombiesBadbloodHard: Int = 0
+    val winsZombiesBadBloodHard: Int = 0
 
     @SerializedName("invisible_zombie_kills_zombies")
     val invisibleZombieKillsZombies: Int = 0
@@ -497,7 +497,7 @@ class ArcadeStatistics {
     val witherSkeletonZombieKillsZombies: Int = 0
 
     @SerializedName("wins_zombies_badblood")
-    val winsZombiesBadblood: Int = 0
+    val winsZombiesBadBlood: Int = 0
 
     @SerializedName("charged_creeper_zombie_kills_zombies")
     val chargedCreeperZombieKillsZombies: Int = 0
@@ -506,100 +506,100 @@ class ArcadeStatistics {
     val herobrineMinionZombieKillsZombies: Int = 0
 
     @SerializedName("best_round_zombies_deadend_hard")
-    val bestRoundZombiesDeadendHard: Int = 0
+    val bestRoundZombiesDeadEndHard: Int = 0
 
     @SerializedName("windows_repaired_zombies_deadend_hard")
-    val windowsRepairedZombiesDeadendHard: Int = 0
+    val windowsRepairedZombiesDeadEndHard: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_deadend_hard")
-    val totalRoundsSurvivedZombiesDeadendHard: Int = 0
+    val totalRoundsSurvivedZombiesDeadEndHard: Int = 0
 
     @SerializedName("players_revived_zombies_deadend_hard")
-    val playersRevivedZombiesDeadendHard: Int = 0
+    val playersRevivedZombiesDeadEndHard: Int = 0
 
     @SerializedName("deaths_zombies_deadend_hard")
-    val deathsZombiesDeadendHard: Int = 0
+    val deathsZombiesDeadEndHard: Int = 0
 
     @SerializedName("zombie_kills_zombies_deadend_hard")
-    val zombieKillsZombiesDeadendHard: Int = 0
+    val zombieKillsZombiesDeadEndHard: Int = 0
 
     @SerializedName("times_knocked_down_zombies_deadend_hard")
-    val timesKnockedDownZombiesDeadendHard: Int = 0
+    val timesKnockedDownZombiesDeadEndHard: Int = 0
 
     @SerializedName("fastest_time_20_zombies_deadend_hard")
-    val fastestTime20ZombiesDeadendHard: Int = 0
+    val fastestTime20ZombiesDeadEndHard: Int = 0
 
     @SerializedName("fastest_time_10_zombies_deadend_hard")
-    val fastestTime10ZombiesDeadendHard: Int = 0
+    val fastestTime10ZombiesDeadEndHard: Int = 0
 
     @SerializedName("doors_opened_zombies_deadend_hard")
-    val doorsOpenedZombiesDeadendHard: Int = 0
+    val doorsOpenedZombiesDeadEndHard: Int = 0
 
     @SerializedName("best_round_zombies_badblood_rip")
-    val bestRoundZombiesBadbloodRip: Int = 0
+    val bestRoundZombiesBadBloodRIP: Int = 0
 
     @SerializedName("deaths_zombies_badblood_rip")
-    val deathsZombiesBadbloodRip: Int = 0
+    val deathsZombiesBadBloodRIP: Int = 0
 
     @SerializedName("zombie_kills_zombies_badblood_rip")
-    val zombieKillsZombiesBadbloodRip: Int = 0
+    val zombieKillsZombiesBadBloodRIP: Int = 0
 
     @SerializedName("windows_repaired_zombies_badblood_rip")
-    val windowsRepairedZombiesBadbloodRip: Int = 0
+    val windowsRepairedZombiesBadBloodRIP: Int = 0
 
     @SerializedName("times_knocked_down_zombies_badblood_rip")
-    val timesKnockedDownZombiesBadbloodRip: Int = 0
+    val timesKnockedDownZombiesBadBloodRIP: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_badblood_rip")
-    val totalRoundsSurvivedZombiesBadbloodRip: Int = 0
+    val totalRoundsSurvivedZombiesBadBloodRIP: Int = 0
 
     @SerializedName("fastest_time_10_zombies_badblood_rip")
-    val fastestTime10ZombiesBadbloodRip: Int = 0
+    val fastestTime10ZombiesBadBloodRIP: Int = 0
 
     @SerializedName("wolf_pet_zombie_kills_zombies")
     val wolfPetZombieKillsZombies: Int = 0
 
     @SerializedName("doors_opened_zombies_badblood_rip")
-    val doorsOpenedZombiesBadbloodRip: Int = 0
+    val doorsOpenedZombiesBadBloodRIP: Int = 0
 
     @SerializedName("players_revived_zombies_badblood_rip")
-    val playersRevivedZombiesBadbloodRip: Int = 0
+    val playersRevivedZombiesBadBloodRIP: Int = 0
 
     @SerializedName("best_round_zombies_badblood_normal")
-    val bestRoundZombiesBadbloodNormal: Int = 0
+    val bestRoundZombiesBadBloodNormal: Int = 0
 
     @SerializedName("zombie_kills_zombies_badblood_normal")
-    val zombieKillsZombiesBadbloodNormal: Int = 0
+    val zombieKillsZombiesBadBloodNormal: Int = 0
 
     @SerializedName("doors_opened_zombies_badblood_normal")
-    val doorsOpenedZombiesBadbloodNormal: Int = 0
+    val doorsOpenedZombiesBadBloodNormal: Int = 0
 
     @SerializedName("times_knocked_down_zombies_badblood_normal")
-    val timesKnockedDownZombiesBadbloodNormal: Int = 0
+    val timesKnockedDownZombiesBadBloodNormal: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_badblood_normal")
-    val totalRoundsSurvivedZombiesBadbloodNormal: Int = 0
+    val totalRoundsSurvivedZombiesBadBloodNormal: Int = 0
 
     @SerializedName("windows_repaired_zombies_badblood_normal")
-    val windowsRepairedZombiesBadbloodNormal: Int = 0
+    val windowsRepairedZombiesBadBloodNormal: Int = 0
 
     @SerializedName("deaths_zombies_badblood_normal")
-    val deathsZombiesBadbloodNormal: Int = 0
+    val deathsZombiesBadBloodNormal: Int = 0
 
     @SerializedName("players_revived_zombies_badblood_normal")
-    val playersRevivedZombiesBadbloodNormal: Int = 0
+    val playersRevivedZombiesBadBloodNormal: Int = 0
 
     @SerializedName("wins_zombies_deadend_normal")
-    val winsZombiesDeadendNormal: Int = 0
+    val winsZombiesDeadEndNormal: Int = 0
 
     @SerializedName("wins_zombies_deadend_hard")
-    val winsZombiesDeadendHard: Int = 0
+    val winsZombiesDeadEndHard: Int = 0
 
     @SerializedName("wins_zombies_badblood_normal")
-    val winsZombiesBadbloodNormal: Int = 0
+    val winsZombiesBadBloodNormal: Int = 0
 
     @SerializedName("fastest_time_20_zombies_alienarcadium_normal")
-    val fastestTime20ZombiesAlienarcadiumNormal: Int = 0
+    val fastestTime20ZombiesAlienArcadiumNormal: Int = 0
 
     @SerializedName("giant_zombie_kills_zombies")
     val giantZombieKillsZombies: Int = 0
@@ -632,40 +632,40 @@ class ArcadeStatistics {
     val familyDaughterZombieKillsZombies: Int = 0
 
     @SerializedName("fastest_time_30_zombies_deadend_hard")
-    val fastestTime30ZombiesDeadendHard: Int = 0
+    val fastestTime30ZombiesDeadEndHard: Int = 0
 
     @SerializedName("fastest_time_30_zombies_badblood_rip")
-    val fastestTime30ZombiesBadbloodRip: Int = 0
+    val fastestTime30ZombiesBadBloodRIP: Int = 0
 
     @SerializedName("fastest_time_20_zombies_badblood_rip")
-    val fastestTime20ZombiesBadbloodRip: Int = 0
+    val fastestTime20ZombiesBadBloodRIP: Int = 0
 
     @SerializedName("wins_zombies_badblood_rip")
-    val winsZombiesBadbloodRip: Int = 0
+    val winsZombiesBadBloodRIP: Int = 0
 
     @SerializedName("best_round_zombies_deadend_normal")
-    val bestRoundZombiesDeadendNormal: Int = 0
+    val bestRoundZombiesDeadEndNormal: Int = 0
 
     @SerializedName("total_rounds_survived_zombies_deadend_normal")
-    val totalRoundsSurvivedZombiesDeadendNormal: Int = 0
+    val totalRoundsSurvivedZombiesDeadEndNormal: Int = 0
 
     @SerializedName("players_revived_zombies_deadend_normal")
-    val playersRevivedZombiesDeadendNormal: Int = 0
+    val playersRevivedZombiesDeadEndNormal: Int = 0
 
     @SerializedName("zombie_kills_zombies_deadend_normal")
-    val zombieKillsZombiesDeadendNormal: Int = 0
+    val zombieKillsZombiesDeadEndNormal: Int = 0
 
     @SerializedName("times_knocked_down_zombies_deadend_normal")
-    val timesKnockedDownZombiesDeadendNormal: Int = 0
+    val timesKnockedDownZombiesDeadEndNormal: Int = 0
 
     @SerializedName("deaths_zombies_deadend_normal")
-    val deathsZombiesDeadendNormal: Int = 0
+    val deathsZombiesDeadEndNormal: Int = 0
 
     @SerializedName("doors_opened_zombies_deadend_normal")
-    val doorsOpenedZombiesDeadendNormal: Int = 0
+    val doorsOpenedZombiesDeadEndNormal: Int = 0
 
     @SerializedName("windows_repaired_zombies_deadend_normal")
-    val windowsRepairedZombiesDeadendNormal: Int = 0
+    val windowsRepairedZombiesDeadEndNormal: Int = 0
 
     @SerializedName("the_old_one_zombie_kills_zombies")
     val theOldOneZombieKillsZombies: Int = 0

@@ -21,7 +21,7 @@ dependencies {
     // Apache commons library 
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.8.1'
 
-    // Google GSON for more JSON handling
+    // Google GSON for JSON handling
     compile 'com.google.code.gson:gson:2.8.5'
 
     // HTTP components for handling HTTP requests
@@ -30,6 +30,7 @@ dependencies {
     // Kotlin SDK
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
+    compile 'io.github.moltenjson:MoltenJSON:2.4.5'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {

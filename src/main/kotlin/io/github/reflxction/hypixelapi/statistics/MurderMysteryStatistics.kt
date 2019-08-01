@@ -23,8 +23,9 @@ import java.util.*
  */
 class MurderMysteryStatistics {
 
+
     @SerializedName("murdermystery_books")
-    val murdermysteryBooks: List<Any> = Collections.emptyList()
+    val murderMysteryBooks: List<Any> = Collections.emptyList()
 
     val wasSpecialRoleLastGame: Boolean = false
 
@@ -1307,13 +1308,13 @@ class MurderMysteryStatistics {
     val killsTowerfallMurderAssassins: Int = 0
 
     @SerializedName("MurderMystery_openedRares")
-    val murdermysteryOpenedrares: Int = 0
+    val murderMysteryOpenedRares: Int = 0
 
     @SerializedName("MurderMystery_openedCommons")
-    val murdermysteryOpenedcommons: Int = 0
+    val murderMysteryOpenedCommons: Int = 0
 
     @SerializedName("MurderMystery_openedChests")
-    val murdermysteryOpenedchests: Int = 0
+    val murderMysteryOpenedchests: Int = 0
 
     @SerializedName("chest_history_new")
     val chestHistoryNew: List<Any> = Collections.emptyList()
@@ -1327,8 +1328,7 @@ class MurderMysteryStatistics {
     @SerializedName("quickjoin_uses_Gold Rush")
     val quickjoinUsesGoldRush: Int = 0
 
-    @SerializedName("activeProjectileTrail")
-    val activeprojectiletrail: String = ""
+    val activeProjectileTrail: String = ""
 
     @SerializedName("murderer_wins_cruise_ship")
     val murdererWinsCruiseShip: Int = 0
@@ -1388,10 +1388,10 @@ class MurderMysteryStatistics {
     val survivorWinsAncientTombMurderInfection: Int = 0
 
     @SerializedName("MurderMystery_openedLegendaries")
-    val murdermysteryOpenedlegendaries: Int = 0
+    val murderMysteryOpenedLegendaries: Int = 0
 
     @SerializedName("MurderMystery_openedEpics")
-    val murdermysteryOpenedepics: Int = 0
+    val murderMysteryOpenedEpics: Int = 0
 
     @SerializedName("trap_kills_towerfall_MURDER_INFECTION")
     val trapKillsTowerfallMurderInfection: Int = 0

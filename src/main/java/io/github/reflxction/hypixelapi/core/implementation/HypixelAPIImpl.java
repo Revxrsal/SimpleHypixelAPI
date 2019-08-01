@@ -117,15 +117,14 @@ public class HypixelAPIImpl implements HypixelAPI {
     }
 
     /**
-     * Returns the ID of the guild that the specified player is in. This can be used to fetch data
-     * from {@link #getGuild(String)} which takes a String parameter (The guild ID)
+     * Returns the {@link Guild} of the specified player.
      *
-     * @param playerUUID Name of the guild to fetch the ID of.
+     * @param playerUUID UUID of the player
      * @return The ID of the given guild name.
      */
     @Override
-    public String getGuildId(UUID playerUUID) {
-        return factory.getFindByUUIDGuild(playerUUID.toString()).get("guild").getAsString();
+    public Guild getGuild(UUID playerUUID) {
+        return MAIN.fromJson(factory.getGuild(playerUUID).get("guild"), GuildImpl.class);
     }
 
     /**

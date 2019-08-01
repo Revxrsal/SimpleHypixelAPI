@@ -31,8 +31,7 @@ class PaintballStatistics {
 
     val endurance: Int = 0
 
-    @SerializedName("forcefieldTime")
-    val forcefieldtime: Int = 0
+    val forcefieldTime: Int = 0
 
     val fortune: Int = 0
 
@@ -111,5 +110,4 @@ class PaintballStatistics {
     val votesSiege: Int = 0
 
     val hat: String = ""
-
 }

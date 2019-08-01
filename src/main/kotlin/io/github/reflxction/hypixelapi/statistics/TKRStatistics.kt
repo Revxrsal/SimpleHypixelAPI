@@ -221,57 +221,56 @@ class TKRStatistics {
     val grandPrixTokens: Int = 0
 
     @SerializedName("GingerBread_tkr_points__10_2018_position")
-    val gingerbreadTkrPoints102018Position: Int = 0
+    val points102018Position: Int = 0
 
     @SerializedName("GingerBread_tkr_points__10_2018_points")
-    val gingerbreadTkrPoints102018Points: Int = 0
+    val points102018Points: Int = 0
 
     @SerializedName("GingerBread_tkr_points__11_2018_position")
-    val gingerbreadTkrPoints112018Position: Int = 0
+    val points112018Position: Int = 0
 
     @SerializedName("GingerBread_tkr_points__11_2018_points")
-    val gingerbreadTkrPoints112018Points: Int = 0
+    val points112018Points: Int = 0
 
     @SerializedName("GingerBread_tkr_points__12_2018_position")
-    val gingerbreadTkrPoints122018Position: Int = 0
+    val points122018Position: Int = 0
 
     @SerializedName("GingerBread_tkr_points__12_2018_points")
-    val gingerbreadTkrPoints122018Points: Int = 0
+    val points122018Points: Int = 0
 
     @SerializedName("GingerBread_tkr_points__1_2019_points")
-    val gingerbreadTkrPoints12019Points: Int = 0
+    val points12019Points: Int = 0
 
     @SerializedName("GingerBread_tkr_points__1_2019_position")
-    val gingerbreadTkrPoints12019Position: Int = 0
+    val points12019Position: Int = 0
 
     @SerializedName("GingerBread_tkr_points__2_2019_position")
-    val gingerbreadTkrPoints22019Position: Int = 0
+    val points22019Position: Int = 0
 
     @SerializedName("GingerBread_tkr_points__2_2019_points")
-    val gingerbreadTkrPoints22019Points: Int = 0
+    val points22019Points: Int = 0
 
     @SerializedName("GingerBread_tkr_points__3_2019_position")
-    val gingerbreadTkrPoints32019Position: Int = 0
+    val points32019Position: Int = 0
 
     @SerializedName("GingerBread_tkr_points__3_2019_points")
-    val gingerbreadTkrPoints32019Points: Int = 0
+    val points32019Points: Int = 0
 
     @SerializedName("GingerBread_tkr_points__4_2019_position")
-    val gingerbreadTkrPoints42019Position: Int = 0
+    val points42019Position: Int = 0
 
     @SerializedName("GingerBread_tkr_points__4_2019_points")
-    val gingerbreadTkrPoints42019Points: Int = 0
+    val points42019Points: Int = 0
 
     @SerializedName("GingerBread_tkr_points__5_2019_position")
-    val gingerbreadTkrPoints52019Position: Int = 0
+    val points52019Position: Int = 0
 
     @SerializedName("GingerBread_tkr_points__5_2019_points")
-    val gingerbreadTkrPoints52019Points: Int = 0
+    val points52019Points: Int = 0
 
     @SerializedName("GingerBread_tkr_points__6_2019_points")
-    val gingerbreadTkrPoints62019Points: Int = 0
+    val points62019Points: Int = 0
 
     @SerializedName("GingerBread_tkr_points__6_2019_position")
-    val gingerbreadTkrPoints62019Position: Int = 0
-
+    val points62019Position: Int = 0
 }

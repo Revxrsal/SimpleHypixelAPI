@@ -682,8 +682,7 @@ class WarlordsStatistics {
     @SerializedName("hide_prestige")
     val hidePrestige: Boolean = false
 
-    @SerializedName("energyPowerups")
-    val energypowerups: Boolean = false
+    val energyPowerups: Boolean = false
 
     @SerializedName("chat_option_kill_feed")
     val chatOptionKillFeed: String = ""

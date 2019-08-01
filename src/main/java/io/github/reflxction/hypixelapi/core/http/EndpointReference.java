@@ -36,9 +36,9 @@ public class EndpointReference {
     private static final String FIND_GUILD_ENDPOINT = BASE_API_ENDPOINT + "findGuild?key=%s&byName=%s";
 
     /**
-     * The API endpoint for getting guilds' IDs from player names
+     * The API endpoint for getting guilds from player UUIDs
      */
-    private static final String FIND_GUILD_UUID_ENDPOINT = BASE_API_ENDPOINT + "findGuild?key=%s&byUuid=%s";
+    private static final String GUILD_BY_PLAYER_ENDPOINT = BASE_API_ENDPOINT + "guild?key=%s&player=%s";
 
     /**
      * The API endpoint for friends
@@ -114,7 +114,7 @@ public class EndpointReference {
      * @return The formatted endpoint
      */
     public static String getFindGuildByUUIDEndpoint(String key, String uuid) {
-        return String.format(FIND_GUILD_UUID_ENDPOINT, key, uuid);
+        return String.format(GUILD_BY_PLAYER_ENDPOINT, key, uuid);
     }
 
     /**

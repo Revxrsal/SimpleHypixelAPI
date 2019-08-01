@@ -216,7 +216,7 @@ class WallsStatistics {
     val weeklyAssistsB: Int = 0
 
     @SerializedName("Inventory")
-    val inventory: Map<String, Any> = Collections.emptyMap()
+    val nventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("monthly_assists_b")
     val monthlyAssistsB: Int = 0
@@ -225,7 +225,7 @@ class WallsStatistics {
     val weeklyAssistsA: Int = 0
 
     @SerializedName("InventoryLayout")
-    val inventorylayout: Map<String, Any> = Collections.emptyMap()
+    val inventoryLayout: Map<String, Any> = Collections.emptyMap()
 
     val excavator: Int = 0
 
@@ -237,5 +237,5 @@ class WallsStatistics {
     val tragedy: Int = 0
 
     @SerializedName("InventoryLayout2")
-    val inventorylayout2: Map<String, Any> = Collections.emptyMap()
+    val inventoryLayout2: Map<String, Any> = Collections.emptyMap()
 }

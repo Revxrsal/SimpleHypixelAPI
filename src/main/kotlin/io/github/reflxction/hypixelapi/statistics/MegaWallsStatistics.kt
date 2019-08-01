@@ -152,12 +152,6 @@ class MegaWallsStatistics {
     @SerializedName("enderman_g")
     val endermanG: Int = 0
 
-    @SerializedName("finalDeaths")
-    val finaldeaths: Int = 0
-
-    @SerializedName("finalKills")
-    val finalkills: Int = 0
-
     @SerializedName("finalKills_Arcanist")
     val finalkillsArcanist: Int = 0
 
@@ -401,8 +395,7 @@ class MegaWallsStatistics {
     @SerializedName("war_cry")
     val warCry: String = ""
 
-    @SerializedName("weeklyDeaths")
-    val weeklydeaths: Int = 0
+    val weeklyDeaths: Int = 0
 
     @SerializedName("weeklyDeaths_Blaze")
     val weeklydeathsBlaze: Int = 0
@@ -437,8 +430,7 @@ class MegaWallsStatistics {
     @SerializedName("weeklyDeaths_Zombie")
     val weeklydeathsZombie: Int = 0
 
-    @SerializedName("weeklyFinalKills")
-    val weeklyfinalkills: Int = 0
+    val weeklyFinalKills: Int = 0
 
     @SerializedName("weeklyFinalKills_Blaze")
     val weeklyfinalkillsBlaze: Int = 0
@@ -467,8 +459,7 @@ class MegaWallsStatistics {
     @SerializedName("weeklyFinalKills_Spider")
     val weeklyfinalkillsSpider: Int = 0
 
-    @SerializedName("weeklyKills")
-    val weeklykills: Int = 0
+    val weeklyKills: Int = 0
 
     @SerializedName("weeklyKills_Blaze")
     val weeklykillsBlaze: Int = 0
@@ -503,8 +494,7 @@ class MegaWallsStatistics {
     @SerializedName("weeklyKills_Zombie")
     val weeklykillsZombie: Int = 0
 
-    @SerializedName("weeklyLosses")
-    val weeklylosses: Int = 0
+    val weeklyLosses: Int = 0
 
     @SerializedName("weeklyLosses_Blaze")
     val weeklylossesBlaze: Int = 0
@@ -536,8 +526,7 @@ class MegaWallsStatistics {
     @SerializedName("weeklyLosses_Zombie")
     val weeklylossesZombie: Int = 0
 
-    @SerializedName("weeklyWins")
-    val weeklywins: Int = 0
+    val weeklyWins: Int = 0
 
     @SerializedName("weeklyWins_Blaze")
     val weeklywinsBlaze: Int = 0
@@ -712,16 +701,11 @@ class MegaWallsStatistics {
     @SerializedName("weeklyLosses_Arcanist")
     val weeklylossesArcanist: Int = 0
 
-    @SerializedName("blazeInventory")
-    val blazeinventory: Map<String, Any> = Collections.emptyMap()
+    val blazeInventory: Map<String, Any> = Collections.emptyMap()
 
-    @SerializedName("herobrineInventory")
-    val herobrineinventory: Map<String, Any> = Collections.emptyMap()
+    val herobrineInventory: Map<String, Any> = Collections.emptyMap()
 
     val colorblind: Boolean = false
-
-    @SerializedName("finalAssists")
-    val finalassists: Int = 0
 
     @SerializedName("assists_Herobrine")
     val assistsHerobrine: Int = 0
@@ -753,14 +737,11 @@ class MegaWallsStatistics {
     @SerializedName("assists_Dreadlord")
     val assistsDreadlord: Int = 0
 
-    @SerializedName("dreadlordInventory")
-    val dreadlordinventory: Map<String, Any> = Collections.emptyMap()
+    val dreadlordInventory: Map<String, Any> = Collections.emptyMap()
 
-    @SerializedName("pigmanInventory")
-    val pigmaninventory: Map<String, Any> = Collections.emptyMap()
+    val pigmanInventory: Map<String, Any> = Collections.emptyMap()
 
-    @SerializedName("creeperInventory")
-    val creeperinventory: Map<String, Any> = Collections.emptyMap()
+    val creeperInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("finalAssists_Pigman")
     val finalassistsPigman: Int = 0
@@ -774,8 +755,7 @@ class MegaWallsStatistics {
     @SerializedName("weeklyWins_face_off_Dreadlord")
     val weeklywinsFaceOffDreadlord: Int = 0
 
-    @SerializedName("skeletonInventory")
-    val skeletoninventory: Map<String, Any> = Collections.emptyMap()
+    val skeletonInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("monthly_finalKills_Skeleton_b")
     val monthlyFinalkillsSkeletonB: Int = 0
@@ -825,17 +805,13 @@ class MegaWallsStatistics {
     @SerializedName("wins_face_off_Creeper")
     val winsFaceOffCreeper: Int = 0
 
-    @SerializedName("zombieInventory")
-    val zombieinventory: Map<String, Any> = Collections.emptyMap()
+    val zombieInventory: Map<String, Any> = Collections.emptyMap()
 
-    @SerializedName("spiderInventory")
-    val spiderinventory: Map<String, Any> = Collections.emptyMap()
+    val spiderInventory: Map<String, Any> = Collections.emptyMap()
 
-    @SerializedName("shamanInventory")
-    val shamaninventory: Map<String, Any> = Collections.emptyMap()
+    val shamanInventory: Map<String, Any> = Collections.emptyMap()
 
-    @SerializedName("arcanistInventory")
-    val arcanistinventory: Map<String, Any> = Collections.emptyMap()
+    val arcanistInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("finalAssists_Enderman")
     val finalassistsEnderman: Int = 0
@@ -891,14 +867,10 @@ class MegaWallsStatistics {
     @SerializedName("weeklyWins_face_off_Arcanist")
     val weeklywinsFaceOffArcanist: Int = 0
 
-    @SerializedName("witherCoins")
-    val withercoins: Int = 0
+    val witherCoins: Int = 0
 
     @SerializedName("plays_face_off")
     val playsFaceOff: Int = 0
-
-    @SerializedName("witherDamage")
-    val witherdamage: Int = 0
 
     @SerializedName("wins_face_off_Skeleton")
     val winsFaceOffSkeleton: Int = 0
@@ -957,8 +929,7 @@ class MegaWallsStatistics {
     @SerializedName("losses_face_off_Enderman")
     val lossesFaceOffEnderman: Int = 0
 
-    @SerializedName("endermanInventory")
-    val endermaninventory: Map<String, Any> = Collections.emptyMap()
+    val endermanInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("golem_b")
     val golemB: Int = 0
@@ -1101,8 +1072,7 @@ class MegaWallsStatistics {
     @SerializedName("weeklyWins_face_off_Shaman")
     val weeklywinsFaceOffShaman: Int = 0
 
-    @SerializedName("golemInventory")
-    val goleminventory: Map<String, Any> = Collections.emptyMap()
+    val golemInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("weeklyLosses_face_off_Golem")
     val weeklylossesFaceOffGolem: Int = 0
@@ -1212,14 +1182,11 @@ class MegaWallsStatistics {
     @SerializedName("losses_face_off_Shaman")
     val lossesFaceOffShaman: Int = 0
 
-    @SerializedName("squidInventory")
-    val squidinventory: Map<String, Any> = Collections.emptyMap()
+    val squidInventory: Map<String, Any> = Collections.emptyMap()
 
-    @SerializedName("hunterInventory")
-    val hunterinventory: Map<String, Any> = Collections.emptyMap()
+    val hunterInventory: Map<String, Any> = Collections.emptyMap()
 
-    @SerializedName("pirateInventory")
-    val pirateinventory: Map<String, Any> = Collections.emptyMap()
+    val pirateInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("finalAssists_Pirate")
     val finalassistsPirate: Int = 0
@@ -5876,8 +5843,7 @@ class MegaWallsStatistics {
     @SerializedName("golem_kills_standard")
     val golemKillsStandard: Int = 0
 
-    @SerializedName("activeChallengeMap")
-    val activechallengemap: String = ""
+    val activeChallengeMap: String = ""
 
     @SerializedName("blaze_a_final_kills_melee_behind_face_off")
     val blazeAFinalKillsMeleeBehindFaceOff: Int = 0

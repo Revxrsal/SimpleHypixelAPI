@@ -63,6 +63,7 @@ class BlitzStatistics {
     val necromancer: Int = 0
 
     val packages: List<Any> = Collections.emptyList()
+
     val pigman: Int = 0
 
     val reddragon: Int = 0
@@ -160,28 +161,27 @@ class BlitzStatistics {
     val kitPermutationsHunter: String = ""
 
     @SerializedName("TrollInventory")
-    val trollinventory: Map<String, Any> = Collections.emptyMap()
+    val trollInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("CreepertamerInventory")
-    val creepertamerinventory: Map<String, Any> = Collections.emptyMap()
+    val creepertamerInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("ScoutInventory")
-    val scoutinventory: Map<String, Any> = Collections.emptyMap()
+    val scoutInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("ArcherInventory")
-    val archerinventory: Map<String, Any> = Collections.emptyMap()
+    val archerInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("HunterInventory")
-    val hunterinventory: Map<String, Any> = Collections.emptyMap()
+    val hunterInventory: Map<String, Any> = Collections.emptyMap()
 
-    @SerializedName("combatTracker")
-    val combattracker: Boolean = false
+    val combatTracker: Boolean = false
 
     @SerializedName("votes_Docks v1")
     val votesDocksV1: Int = 0
 
     @SerializedName("ToxicologistInventory")
-    val toxicologistinventory: Map<String, Any> = Collections.emptyMap()
+    val toxicologistInventory: Map<String, Any> = Collections.emptyMap()
 
     val reaper: Int = 0
 
@@ -192,13 +192,13 @@ class BlitzStatistics {
     val florist: Int = 0
 
     @SerializedName("NecromancerInventory")
-    val necromancerinventory: Map<String, Any> = Collections.emptyMap()
+    val necromancerInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("BakerInventory")
-    val bakerinventory: Map<String, Any> = Collections.emptyMap()
+    val bakerInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("HorsetamerInventory")
-    val horsetamerinventory: Map<String, Any> = Collections.emptyMap()
+    val horsetamerInventory: Map<String, Any> = Collections.emptyMap()
 
     val snowman: Int = 0
 
@@ -218,7 +218,7 @@ class BlitzStatistics {
     val ingamepresentscap20175: Int = 0
 
     @SerializedName("FloristInventory")
-    val floristinventory: Map<String, Any> = Collections.emptyMap()
+    val floristInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("inGamePresentsCap_2017_6")
     val ingamepresentscap20176: Int = 0
@@ -311,7 +311,7 @@ class BlitzStatistics {
     val ingamepresentscap20188: Int = 0
 
     @SerializedName("SlimeySlimeInventory")
-    val slimeyslimeinventory: Map<String, Any> = Collections.emptyMap()
+    val slimeySlimeInventory: Map<String, Any> = Collections.emptyMap()
 
     val autoarmor: Boolean = false
 
@@ -319,10 +319,10 @@ class BlitzStatistics {
     val shadowKnightinventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("RedDragonInventory")
-    val reddragoninventory: Map<String, Any> = Collections.emptyMap()
+    val redDragonInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("RogueInventory")
-    val rogueinventory: Map<String, Any> = Collections.emptyMap()
+    val rogueInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("taunt_kills")
     val tauntKills: Int = 0
@@ -557,13 +557,13 @@ class BlitzStatistics {
     val damageSpeleologist: Int = 0
 
     @SerializedName("MeatmasterInventory")
-    val meatmasterinventory: Map<String, Any> = Collections.emptyMap()
+    val meatmasterInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("SpeleologistInventory")
-    val speleologistinventory: Map<String, Any> = Collections.emptyMap()
+    val speleologistInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("KnightInventory")
-    val knightinventory: Map<String, Any> = Collections.emptyMap()
+    val knightInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("damage_taken_guardian")
     val damageTakenGuardian: Int = 0
@@ -593,59 +593,59 @@ class BlitzStatistics {
     val winsBaker: Int = 0
 
     @SerializedName("GuardianInventory")
-    val guardianinventory: Map<String, Any> = Collections.emptyMap()
+    val guardianInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("Hype TrainInventory")
     val hypeTraininventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("ArmorerInventory")
-    val armorerinventory: Map<String, Any> = Collections.emptyMap()
+    val armorerInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("AstronautInventory")
-    val astronautinventory: Map<String, Any> = Collections.emptyMap()
+    val astronautInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("ReaperInventory")
-    val reaperinventory: Map<String, Any> = Collections.emptyMap()
+    val reaperInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("WarlockInventory")
-    val warlockinventory: Map<String, Any> = Collections.emptyMap()
+    val warlockInventory: Map<String, Any> = Collections.emptyMap()
 
     val warlock: Int = 0
 
     @SerializedName("JockeyInventory")
-    val jockeyinventory: Map<String, Any> = Collections.emptyMap()
+    val jockeyInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("GolemInventory")
-    val goleminventory: Map<String, Any> = Collections.emptyMap()
+    val golemInventory: Map<String, Any> = Collections.emptyMap()
 
     val viking: Int = 0
 
     @SerializedName("VikingInventory")
-    val vikinginventory: Map<String, Any> = Collections.emptyMap()
+    val vikingInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("PigmanInventory")
-    val pigmaninventory: Map<String, Any> = Collections.emptyMap()
+    val pigmanInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("PaladinInventory")
-    val paladininventory: Map<String, Any> = Collections.emptyMap()
+    val paladinInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("ArachnologistInventory")
-    val arachnologistinventory: Map<String, Any> = Collections.emptyMap()
+    val arachnologistInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("BlazeInventory")
-    val blazeinventory: Map<String, Any> = Collections.emptyMap()
+    val blazeInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("WolftamerInventory")
-    val wolftamerinventory: Map<String, Any> = Collections.emptyMap()
+    val wolftamerInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("TimInventory")
-    val timinventory: Map<String, Any> = Collections.emptyMap()
+    val timInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("FarmerInventory")
-    val farmerinventory: Map<String, Any> = Collections.emptyMap()
+    val farmerInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("SnowmanInventory")
-    val snowmaninventory: Map<String, Any> = Collections.emptyMap()
+    val snowmanInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("arrows_fired_necromancer")
     val arrowsFiredNecromancer: Int = 0
@@ -884,7 +884,7 @@ class BlitzStatistics {
     val potionsThrownViking: Int = 0
 
     @SerializedName("DiverInventory")
-    val diverinventory: Map<String, Any> = Collections.emptyMap()
+    val diverInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("kills_florist")
     val killsFlorist: Int = 0
@@ -1852,9 +1852,6 @@ class BlitzStatistics {
     @SerializedName("arrows_fired_knight")
     val arrowsFiredKnight: Int = 0
 
-    @SerializedName("kit_item_rename_Golem_iron_axe")
-    val kitItemRenameGolemIronAxe: String = ""
-
     @SerializedName("potions_thrown_guardian")
     val potionsThrownGuardian: Int = 0
 
@@ -2080,7 +2077,7 @@ class BlitzStatistics {
     val expRandom: Int = 0
 
     @SerializedName("PhoenixInventory")
-    val phoenixinventory: Map<String, Any> = Collections.emptyMap()
+    val phoenixInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("exp_baker")
     val expBaker: Int = 0
@@ -2107,7 +2104,7 @@ class BlitzStatistics {
     val arrowsHitWarrior: Int = 0
 
     @SerializedName("WarriorInventory")
-    val warriorinventory: Map<String, Any> = Collections.emptyMap()
+    val warriorInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("wins_warrior")
     val winsWarrior: Int = 0
@@ -2124,8 +2121,7 @@ class BlitzStatistics {
     @SerializedName("exp_rogue")
     val expRogue: Int = 0
 
-    @SerializedName("lastTourneyAd")
-    val lasttourneyad: Int = 0
+    val lastTourneyAd: Int = 0
 
     @SerializedName("exp_scout")
     val expScout: Int = 0
@@ -2245,13 +2241,13 @@ class BlitzStatistics {
     val potionsThrownRanger: Int = 0
 
     @SerializedName("DonkeytamerInventory")
-    val donkeytamerinventory: Map<String, Any> = Collections.emptyMap()
+    val donkeytamerInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("wins_ranger")
     val winsRanger: Int = 0
 
     @SerializedName("RangerInventory")
-    val rangerinventory: Map<String, Any> = Collections.emptyMap()
+    val rangerInventory: Map<String, Any> = Collections.emptyMap()
 
     @SerializedName("exp_tim")
     val expTim: Int = 0
@@ -2415,5 +2411,5 @@ class BlitzStatistics {
     @SerializedName("wins_reddragon")
     val winsReddragon: Int = 0
 
-
+    val togglekillcounter: Int = 0
 }

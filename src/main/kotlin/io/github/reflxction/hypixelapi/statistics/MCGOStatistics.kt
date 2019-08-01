@@ -112,17 +112,13 @@ class MCGOStatistics {
     @SerializedName("round_wins")
     val roundWins: Int = 0
 
-    @SerializedName("selectedCreeperChestplateDev")
-    val selectedcreeperchestplatedev: String = ""
+    val selectedCreeperChestplateDev: String = ""
 
-    @SerializedName("selectedCreeperHelmetDev")
-    val selectedcreeperhelmetdev: String = ""
+    val selectedCreeperHelmetDev: String = ""
 
-    @SerializedName("selectedOcelotChestplateDev")
-    val selectedocelotchestplatedev: String = ""
+    val selectedOcelotChestplateDev: String = ""
 
-    @SerializedName("selectedOcelotHelmetDev")
-    val selectedocelothelmetdev: String = ""
+    val selectedOcelotHelmetDev: String = ""
 
     @SerializedName("shots_fired")
     val shotsFired: Int = 0
@@ -157,26 +153,19 @@ class MCGOStatistics {
     @SerializedName("shotgun_reload_speed_reduction")
     val shotgunReloadSpeedReduction: Int = 0
 
-    @SerializedName("selectedCarbineDev")
-    val selectedcarbinedev: String = ""
+    val selectedCarbineDev: String = ""
 
-    @SerializedName("selectedRifleDev")
-    val selectedrifledev: String = ""
+    val selectedRifleDev: String = ""
 
-    @SerializedName("selectedPistolDev")
-    val selectedpistoldev: String = ""
+    val selectedPistolDev: String = ""
 
-    @SerializedName("selectedMagnumDev")
-    val selectedmagnumdev: String = ""
+    val selectedMagnumDev: String = ""
 
-    @SerializedName("selectedSmgDev")
-    val selectedsmgdev: String = ""
+    val selectedSmgDev: String = ""
 
-    @SerializedName("selectedShotgunDev")
-    val selectedshotgundev: String = ""
+    val selectedShotgunDev: String = ""
 
-    @SerializedName("selectedKnifeDev")
-    val selectedknifedev: String = ""
+    val selectedKnifeDev: String = ""
 
     @SerializedName("monthly_kills_b")
     val monthlyKillsB: Int = 0
@@ -248,9 +237,6 @@ class MCGOStatistics {
 
     @SerializedName("grenade_kills")
     val grenadeKills: Int = 0
-
-    @SerializedName("grenadeKills")
-    val grenadekills: Int = 0
 
     @SerializedName("setting_hints")
     val settingHints: Boolean = false
