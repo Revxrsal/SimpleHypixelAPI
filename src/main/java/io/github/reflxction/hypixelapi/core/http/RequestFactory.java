@@ -33,7 +33,6 @@ import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
-import java.util.function.Predicate;
 
 import static io.github.reflxction.hypixelapi.core.adapters.GsonProfiles.MAIN;
 
@@ -127,6 +126,19 @@ public class RequestFactory {
     public JsonObject getFindGuild(String guildName) {
         String response = send(EndpointReference.getFindGuildEndpoint(key, guildName));
         return RequestValidator.isSuccessful(key, construct(response), new GuildNotFoundException(guildName),
+                object -> !object.get("guild").isJsonNull());
+    }
+
+    /**
+     * Returns the JSON response of <i>findGuild</i> request method
+     *
+     * @param uuid UUID of the player who is in the guild
+     * @return The JSON response
+     */
+    public JsonObject getFindByUUIDGuild(String uuid) {
+        String response = send(EndpointReference.getFindGuildByUUIDEndpoint(key, uuid.replace("-", "")));
+        System.out.println(response);
+        return RequestValidator.isSuccessful(key, construct(response), new GuildNotFoundException(uuid),
                 object -> !object.get("guild").isJsonNull());
     }
 
