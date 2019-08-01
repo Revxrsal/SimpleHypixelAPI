@@ -1,3 +1,5 @@
+[![](https://jitpack.io/v/ReflxctionDev/SimpleHypixelAPI.svg)](https://jitpack.io/#ReflxctionDev/SimpleHypixelAPI)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # SimpleHypixelAPI
 **SimpleHypixelAPI** is an asynchronous, fast Hypixel API wrapper, designed to allow easier and faster access to the Hypixel API.
 
