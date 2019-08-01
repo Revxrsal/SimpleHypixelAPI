@@ -23,7 +23,6 @@ import java.util.*
  */
 class MurderMysteryStatistics {
 
-
     @SerializedName("murdermystery_books")
     val murderMysteryBooks: List<Any> = Collections.emptyList()
 
@@ -1327,8 +1326,6 @@ class MurderMysteryStatistics {
 
     @SerializedName("quickjoin_uses_Gold Rush")
     val quickjoinUsesGoldRush: Int = 0
-
-    val activeProjectileTrail: String = ""
 
     @SerializedName("murderer_wins_cruise_ship")
     val murdererWinsCruiseShip: Int = 0
