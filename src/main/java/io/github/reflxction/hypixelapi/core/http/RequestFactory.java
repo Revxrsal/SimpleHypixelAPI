@@ -137,7 +137,6 @@ public class RequestFactory {
      */
     public JsonObject getFindByUUIDGuild(String uuid) {
         String response = send(EndpointReference.getFindGuildByUUIDEndpoint(key, uuid.replace("-", "")));
-        System.out.println(response);
         return RequestValidator.isSuccessful(key, construct(response), new GuildNotFoundException(uuid),
                 object -> !object.get("guild").isJsonNull());
     }

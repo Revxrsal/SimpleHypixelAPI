@@ -114,7 +114,6 @@ public class EndpointReference {
      * @return The formatted endpoint
      */
     public static String getFindGuildByUUIDEndpoint(String key, String uuid) {
-        System.out.println(String.format(FIND_GUILD_UUID_ENDPOINT, key, uuid));
         return String.format(FIND_GUILD_UUID_ENDPOINT, key, uuid);
     }
 

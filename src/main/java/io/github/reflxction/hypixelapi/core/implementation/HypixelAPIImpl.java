@@ -201,7 +201,6 @@ public class HypixelAPIImpl implements HypixelAPI {
     @Override
     public WatchdogStatistics getWatchdogStatistics() {
         JsonObject object = factory.getWatchdogStats();
-        System.out.println(object);
         object.remove("success");
         return MAIN.fromJson(object, WatchdogStatisticsImpl.class);
     }

@@ -42,7 +42,6 @@ public class TournamentDataAdapter implements JsonDeserializer<Map<String, Tourn
      */
     @Override
     public Map<String, TournamentData> deserialize(JsonElement json, Type typeOfT, JsonDeserializationContext context) throws JsonParseException {
-        //System.out.println(JsonUtils.setPretty(json.toString()));
         JsonObject object = json.getAsJsonObject().get("tourney").getAsJsonObject();
         object.remove("first_join_lobby");
         object.remove("total_tributes");
