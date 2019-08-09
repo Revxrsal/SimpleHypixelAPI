@@ -30,7 +30,6 @@ dependencies {
     // Kotlin SDK
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 
-    compile 'io.github.moltenjson:MoltenJSON:2.4.5'
 }
 
 task sourcesJar(type: Jar, dependsOn: classes) {
