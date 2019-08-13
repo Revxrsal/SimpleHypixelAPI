@@ -129,7 +129,11 @@ public interface GsonProfiles {
                 try {
                     return GameType.fromId(json.getAsInt());
                 } catch (NumberFormatException e) {
-                    return GameType.valueOf(json.getAsString());
+                    try {
+                        return GameType.valueOf(json.getAsString());
+                    } catch (IllegalArgumentException ex) {
+                        return GameType.UNKNOWN;
+                    }
                 }
             })
 

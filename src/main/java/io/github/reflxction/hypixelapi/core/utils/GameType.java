@@ -2,6 +2,7 @@ package io.github.reflxction.hypixelapi.core.utils;
 
 public enum GameType {
 
+    UNKNOWN("Unknown", "Unknown", -1),
     QUAKECRAFT("Quakecraft", "Quake", 2),
     WALLS("Walls", "Walls", 3),
     PAINTBALL("Paintball", "Paintball", 4),
