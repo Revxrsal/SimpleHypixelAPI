@@ -18,14 +18,13 @@ package io.github.reflxction.hypixelapi;
 import io.github.reflxction.hypixelapi.core.http.RequestFactory;
 import io.github.reflxction.hypixelapi.core.implementation.HypixelAPIImpl;
 import io.github.reflxction.hypixelapi.core.utils.GameType;
+import io.github.reflxction.hypixelapi.game.GameCountsResponse;
 import io.github.reflxction.hypixelapi.game.Leaderboard;
 import io.github.reflxction.hypixelapi.guild.Guild;
 import io.github.reflxction.hypixelapi.hypixel.Booster;
 import io.github.reflxction.hypixelapi.hypixel.HypixelKey;
 import io.github.reflxction.hypixelapi.hypixel.WatchdogStatistics;
-import io.github.reflxction.hypixelapi.player.Friend;
-import io.github.reflxction.hypixelapi.player.HypixelPlayer;
-import io.github.reflxction.hypixelapi.player.Session;
+import io.github.reflxction.hypixelapi.player.*;
 
 import java.io.IOException;
 import java.util.List;
@@ -129,6 +128,31 @@ public interface HypixelAPI {
      * @return Watchdog's statistics.
      */
     WatchdogStatistics getWatchdogStatistics();
+
+    /**
+     * Returns the {@link PlayerStatus} data of the specified player UUID
+     *
+     * @param uuid UUID to fetch from
+     * @return The player status information
+     */
+    PlayerStatus getStatus(UUID uuid);
+
+    /**
+     * Returns recent games of a player. A maximum of 100 games are returned and recent
+     * games are only stored for up to 3 days at this time.
+     *
+     * @param uuid UUID to fetch from
+     * @return The player's latest game
+     */
+    List<RecentGame> getRecentGames(UUID uuid);
+
+    /**
+     * Returns the game counts, each game with its sub-modes, with the number of players playing in each mode, and in each
+     * sub-mode.
+     *
+     * @return The games counts
+     */
+    GameCountsResponse getGameCounts();
 
     /**
      * Creates a new Hypixel API instance with the given API key

@@ -3,6 +3,7 @@ package io.github.reflxction.hypixelapi.core.utils;
 public enum GameType {
 
     UNKNOWN("Unknown", "Unknown", -1),
+    MAIN_LOBBY("Main Lobby", "MainLobby", -1),
     QUAKECRAFT("Quakecraft", "Quake", 2),
     WALLS("Walls", "Walls", 3),
     PAINTBALL("Paintball", "Paintball", 4),
@@ -28,8 +29,8 @@ public enum GameType {
     MURDER_MYSTERY("Murder Mystery", "MurderMystery", 59),
     BUILD_BATTLE("Build Battle", "BuildBattle", 60),
     DUELS("Duels", "Duels", 61),
-    SKYBLOCK("Sky Block", "SkyBlock", 62),
-    PIT("Pit", "Pit", 63);
+    SKYBLOCK("SkyBlock", "SkyBlock", 63),
+    PIT("Pit", "Pit", 64);
 
     private static final GameType[] VALUES = values();
 

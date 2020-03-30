@@ -19,23 +19,21 @@ import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
 import io.github.reflxction.hypixelapi.HypixelAPI;
 import io.github.reflxction.hypixelapi.core.http.RequestFactory;
+import io.github.reflxction.hypixelapi.core.implementation.game.GameCountsResponseImpl;
 import io.github.reflxction.hypixelapi.core.implementation.game.LeaderboardImpl;
 import io.github.reflxction.hypixelapi.core.implementation.guild.GuildImpl;
 import io.github.reflxction.hypixelapi.core.implementation.hypixel.BoosterImpl;
 import io.github.reflxction.hypixelapi.core.implementation.hypixel.HypixelKeyImpl;
 import io.github.reflxction.hypixelapi.core.implementation.hypixel.WatchdogStatisticsImpl;
-import io.github.reflxction.hypixelapi.core.implementation.player.FriendImpl;
-import io.github.reflxction.hypixelapi.core.implementation.player.HypixelPlayerImpl;
-import io.github.reflxction.hypixelapi.core.implementation.player.SessionImpl;
+import io.github.reflxction.hypixelapi.core.implementation.player.*;
 import io.github.reflxction.hypixelapi.core.utils.GameType;
+import io.github.reflxction.hypixelapi.game.GameCountsResponse;
 import io.github.reflxction.hypixelapi.game.Leaderboard;
 import io.github.reflxction.hypixelapi.guild.Guild;
 import io.github.reflxction.hypixelapi.hypixel.Booster;
 import io.github.reflxction.hypixelapi.hypixel.HypixelKey;
 import io.github.reflxction.hypixelapi.hypixel.WatchdogStatistics;
-import io.github.reflxction.hypixelapi.player.Friend;
-import io.github.reflxction.hypixelapi.player.HypixelPlayer;
-import io.github.reflxction.hypixelapi.player.Session;
+import io.github.reflxction.hypixelapi.player.*;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -53,6 +51,12 @@ public class HypixelAPIImpl implements HypixelAPI {
     }.getType();
 
     private static final Type FRIENDS_TYPE = new TypeToken<List<FriendImpl>>() {
+    }.getType();
+
+    private static final Type LEADERBOARDS_TYPE = new TypeToken<Map<GameType, List<LeaderboardImpl>>>() {
+    }.getType();
+
+    private static final Type RECENT_GAMES_TYPE = new TypeToken<List<RecentGameImpl>>() {
     }.getType();
 
     private static final String SPACE_ENCODING = "%20";
@@ -166,9 +170,7 @@ public class HypixelAPIImpl implements HypixelAPI {
      */
     @Override
     public Map<GameType, List<Leaderboard>> getLeaderboards() {
-        Type type = new TypeToken<Map<GameType, List<LeaderboardImpl>>>() {
-        }.getType();
-        return MAIN.fromJson(factory.getLeaderboards().get("leaderboards"), type);
+        return MAIN.fromJson(factory.getLeaderboards().get("leaderboards"), LEADERBOARDS_TYPE);
     }
 
     /**
@@ -202,5 +204,33 @@ public class HypixelAPIImpl implements HypixelAPI {
         JsonObject object = factory.getWatchdogStats();
         object.remove("success");
         return MAIN.fromJson(object, WatchdogStatisticsImpl.class);
+    }
+
+    @Override
+    public PlayerStatus getStatus(UUID uuid) {
+        return MAIN.fromJson(factory.getStatus(uuid.toString()).get("session"), PlayerStatusImpl.class);
+    }
+
+    /**
+     * Returns recent games of a player. A maximum of 100 games are returned and recent
+     * games are only stored for up to 3 days at this time.
+     *
+     * @param uuid UUID to fetch from
+     * @return The player's latest game
+     */
+    @Override
+    public List<RecentGame> getRecentGames(UUID uuid) {
+        return MAIN.fromJson(factory.getRecentGames(uuid.toString()).get("games"), RECENT_GAMES_TYPE);
+    }
+
+    /**
+     * Returns the game counts, each game with its sub-modes, with the number of players playing in each mode, and in each
+     * sub-mode.
+     *
+     * @return The games counts
+     */
+    @Override
+    public GameCountsResponse getGameCounts() {
+        return new GameCountsResponseImpl(factory.getGameCounts());
     }
 }
