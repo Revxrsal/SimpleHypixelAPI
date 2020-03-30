@@ -76,7 +76,7 @@ public class EndpointReference {
     private static final String PLAYER_COUNT_ENDPOINT = BASE_API_ENDPOINT + "playerCount?key=%s";
 
     /**
-     * The API endpoint for
+     * The API endpoint for sessions
      */
     private static final String SESSION_ENDPOINT = BASE_API_ENDPOINT + "session?key=%s&uuid=%s";
 
@@ -84,6 +84,21 @@ public class EndpointReference {
      * The API endpoint for boosters
      */
     private static final String WATCHDOG_ENDPOINT = BASE_API_ENDPOINT + "watchdogstats?key=%s";
+
+    /**
+     * The API endpoint for status
+     */
+    private static final String STATUS_ENDPOINT = BASE_API_ENDPOINT + "status?key=%s&uuid=%s";
+
+    /**
+     * The API endpoint for status
+     */
+    private static final String RECENT_GAMES_ENDPOINT = BASE_API_ENDPOINT + "recentGames?key=%s&uuid=%s";
+
+    /**
+     * The API endpoint for status
+     */
+    private static final String GAME_COUNTS_ENDPOINT = BASE_API_ENDPOINT + "gameCounts?key=%s";
 
     /**
      * Returns the API endpoint for fetching boosters, using the given key
@@ -191,7 +206,6 @@ public class EndpointReference {
         return String.format(PLAYER_COUNT_ENDPOINT, key);
     }
 
-
     /**
      * Returns the API endpoint for fetching sessions, using the given key and UUID
      *
@@ -201,6 +215,38 @@ public class EndpointReference {
      */
     public static String getSessionEndpoint(String key, String uuid) {
         return String.format(SESSION_ENDPOINT, key, uuid);
+    }
+
+    /**
+     * Returns the API endpoint for fetching player status, using the given key and UUID
+     *
+     * @param key  Key to use
+     * @param uuid UUID of the player
+     * @return The formatted endpoint
+     */
+    public static String getStatusEndpoint(String key, String uuid) {
+        return String.format(STATUS_ENDPOINT, key, uuid);
+    }
+
+    /**
+     * Returns the API endpoint for the recent games of a player
+     *
+     * @param key  Key to use
+     * @param uuid UUID of the player
+     * @return The formatted endpoint
+     */
+    public static String getRecentGamesEndpoint(String key, String uuid) {
+        return String.format(RECENT_GAMES_ENDPOINT, key, uuid);
+    }
+
+    /**
+     * Returns the API endpoint for the total games count
+     *
+     * @param key  Key to use
+     * @return The formatted endpoint
+     */
+    public static String getGameCounts(String key) {
+        return String.format(GAME_COUNTS_ENDPOINT, key);
     }
 
     /**

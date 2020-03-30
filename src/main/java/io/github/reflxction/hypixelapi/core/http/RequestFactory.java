@@ -242,6 +242,38 @@ public class RequestFactory {
     }
 
     /**
+     * Returns the JSON response of <i>status</i> request method
+     *
+     * @param uuid UUID of the player
+     * @return The JSON response
+     */
+    public JsonObject getStatus(String uuid) {
+        String response = send(EndpointReference.getStatusEndpoint(key, uuid));
+        return construct(response);
+    }
+
+    /**
+     * Returns the JSON response of <i>recentGames</i> request method
+     *
+     * @param uuid UUID of the player
+     * @return The JSON response
+     */
+    public JsonObject getRecentGames(String uuid) {
+        String response = send(EndpointReference.getRecentGamesEndpoint(key, uuid));
+        return construct(response);
+    }
+
+    /**
+     * Returns the JSON response of <i>gameCounts</i> request method
+     *
+     * @return The JSON response
+     */
+    public JsonObject getGameCounts() {
+        String response = send(EndpointReference.getGameCounts(key));
+        return construct(response);
+    }
+
+    /**
      * Starts the request client
      */
     private static void start() {
@@ -250,5 +282,4 @@ public class RequestFactory {
             STARTED.set(true);
         }
     }
-
 }
